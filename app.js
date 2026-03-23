@@ -188,7 +188,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function generateMixedTest() {
         let items = [];
         
-        ['part5', 'part6', 'part7'].forEach(pId => {
+        ['part3', 'part4', 'part5', 'part6', 'part7'].forEach(pId => {
             const partData = toeicData[pId];
             if (!partData) return;
             const tests = Object.keys(partData);
@@ -206,7 +206,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
                 // Keep passages grouped with its questions
                 tData.forEach(passage => {
-                    items.push({ type: 'passage', data: passage, originalPart: pId });
+                    items.push({ type: 'passage', data: passage, originalPart: pId, isListening: ['part3', 'part4'].includes(pId) });
                 });
             }
         });
