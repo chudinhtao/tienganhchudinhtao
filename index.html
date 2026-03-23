@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOEIC Practice Platform</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="logo-area">
+                <h2>Onyx<span>TOEIC</span></h2>
+                <p>Master your score.</p>
+            </div>
+            
+            <div class="nav-section">
+                <h3>Select Part</h3>
+                <ul id="part-list" class="nav-list">
+                    <!-- Parts dynamically loaded -->
+                </ul>
+            </div>
+            
+            <div class="nav-section">
+                <h3>Select Test</h3>
+                <ul id="test-list" class="nav-list">
+                    <!-- Tests dynamically loaded -->
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <header class="top-bar">
+                <div class="test-info">
+                    <h1 id="current-title">Select a test to begin</h1>
+                    <span id="progress-badge" class="badge hidden">0/0 Completed</span>
+                </div>
+                <div class="actions">
+                    <label class="toggle-container" title="Shuffle questions in test">
+                        <input type="checkbox" id="toggle-random">
+                        <span class="slider"></span>
+                        Randomize
+                    </label>
+                    <button class="btn btn-secondary" id="btn-reset">Reset</button>
+                    <button class="btn btn-primary" id="btn-submit">Submit Answers</button>
+                </div>
+            </header>
+            
+            <div class="test-area" id="test-area">
+                <div class="empty-state">
+                    <div class="icon">🚀</div>
+                    <h3>Ready to practice?</h3>
+                    <p>Choose a part and a test from the sidebar.</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Data and App scripts -->
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
