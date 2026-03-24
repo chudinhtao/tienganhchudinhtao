@@ -158,6 +158,45 @@ const toeicData = {
                 "passage": "[Listen to the audio to answer the following questions.]"
             },
             {
+                "header": "Questions 44-46",
+                "questions": [
+                    {
+                        "id": "44",
+                        "question": "What is the man concerned about?",
+                        "options": {
+                            "A": "Venue availability",
+                            "B": "Product efficiency",
+                            "C": "A project budget",
+                            "D": "A guest list"
+                        },
+                        "answer": "C"
+                    },
+                    {
+                        "id": "45",
+                        "question": "Who is Stefan Vogel?",
+                        "options": {
+                            "A": "A furniture designer",
+                            "B": "A photographer",
+                            "C": "An accountant",
+                            "D": "An event planner"
+                        },
+                        "answer": "B"
+                    },
+                    {
+                        "id": "46",
+                        "question": "What will the speakers do this afternoon?",
+                        "options": {
+                            "A": "Review some plans",
+                            "B": "Consult with a graphic designer",
+                            "C": "Choose some colors",
+                            "D": "Survey other team members"
+                        },
+                        "answer": "A"
+                    }
+                ],
+                "passage": "[Listen to the audio to answer the following questions.]"
+            },
+            {
                 "header": "Questions 47-49",
                 "questions": [
                     {
@@ -192,6 +231,45 @@ const toeicData = {
                             "D": "An appointment ended early."
                         },
                         "answer": "B"
+                    }
+                ],
+                "passage": "[Listen to the audio to answer the following questions.]"
+            },
+            {
+                "header": "Questions 50-52",
+                "questions": [
+                    {
+                        "id": "50",
+                        "question": "What type of product are the speakers discussing?",
+                        "options": {
+                            "A": "Pencils",
+                            "B": "Backpacks",
+                            "C": "Sneakers",
+                            "D": "Folders"
+                        },
+                        "answer": "B"
+                    },
+                    {
+                        "id": "51",
+                        "question": "What is the woman frustrated by?",
+                        "options": {
+                            "A": "Some customers wrote a negative review.",
+                            "B": "Some equipment is malfunctioning.",
+                            "C": "Some team members are unavailable.",
+                            "D": "Some packages have not arrived."
+                        },
+                        "answer": "C"
+                    },
+                    {
+                        "id": "52",
+                        "question": "Why does the man say, \"The school year is starting in three months\"?",
+                        "options": {
+                            "A": "To request some time off from work",
+                            "B": "To correct an error in a schedule",
+                            "C": "To express interest in an assignment",
+                            "D": "To emphasize the need for urgency"
+                        },
+                        "answer": "D"
                     }
                 ],
                 "passage": "[Listen to the audio to answer the following questions.]"
@@ -437,34 +515,34 @@ const toeicData = {
                 "questions": [
                     {
                         "id": "32",
-                        "question": "What is the speaker preparing for?",
+                        "question": "According to the woman, what will happen next week?",
                         "options": {
-                            "A": "A job interview",
-                            "B": "A business trip",
-                            "C": "A move to a new office",
-                            "D": "A visit from a client"
+                            "A": "A renovation project will begin",
+                            "B": "A company will move to a new location",
+                            "C": "Some technology will be updated",
+                            "D": "Some new employees will be trained"
                         },
-                        "answer": "B"
+                        "answer": "A"
                     },
                     {
                         "id": "33",
-                        "question": "What problem does the speaker mention?",
+                        "question": "What does the man recommend?",
                         "options": {
-                            "A": "A staff member is late.",
-                            "B": "An invoice is incorrect.",
-                            "C": "A suitcase is damaged.",
-                            "D": "A flight is canceled."
+                            "A": "Ordering some equipment",
+                            "B": "Printing some instructions",
+                            "C": "Donating some furniture",
+                            "D": "Arranging a catered meal"
                         },
                         "answer": "C"
                     },
                     {
                         "id": "34",
-                        "question": "What does the speaker say she will do?",
+                        "question": "What does the woman say she will do?",
                         "options": {
-                            "A": "Call a taxi",
-                            "B": "Visit a store",
-                            "C": "Check a flight schedule",
-                            "D": "Reschedule a meeting"
+                            "A": "Meet a client",
+                            "B": "Research some options",
+                            "C": "Make a presentation",
+                            "D": "Sign a contract"
                         },
                         "answer": "B"
                     }
@@ -476,34 +554,34 @@ const toeicData = {
                 "questions": [
                     {
                         "id": "35",
-                        "question": "Where most likely are the speakers?",
+                        "question": "Who most likely is the man?",
                         "options": {
-                            "A": "At a pharmacy",
-                            "B": "At a fitness center",
-                            "C": "At a medical clinic",
-                            "D": "At a community pool"
+                            "A": "A painter",
+                            "B": "A security guard",
+                            "C": "A bank teller",
+                            "D": "A property manager"
                         },
-                        "answer": "B"
+                        "answer": "D"
                     },
                     {
                         "id": "36",
-                        "question": "What is the woman concerned about?",
+                        "question": "What problem does the women have?",
                         "options": {
-                            "A": "The cost of a membership",
-                            "B": "The expiration of a certificate",
-                            "C": "The location of a facility",
-                            "D": "The time of a class"
+                            "A": "She found a mistake on a bill",
+                            "B": "She cannot locate a door key",
+                            "C": "An air conditioner is not working",
+                            "D": "An apartment is too noisy"
                         },
-                        "answer": "B"
+                        "answer": "C"
                     },
                     {
                         "id": "37",
-                        "question": "What does the man agree to do?",
+                        "question": "What information does the man ask for?",
                         "options": {
-                            "A": "Contact a manager",
-                            "B": "Renew a contract",
-                            "C": "Waive a fee",
-                            "D": "Repair some equipment"
+                            "A": "An address",
+                            "B": "A security code",
+                            "C": "A telephone number",
+                            "D": "An appointment time"
                         },
                         "answer": "C"
                     }
@@ -515,34 +593,34 @@ const toeicData = {
                 "questions": [
                     {
                         "id": "38",
-                        "question": "What are the speakers mainly discussing?",
+                        "question": "Who most likely is the woman?",
                         "options": {
-                            "A": "Planning an office party",
-                            "B": "Setting a project deadline",
-                            "C": "Ordering some furniture",
-                            "D": "Hiring a new employee"
+                            "A": "An event organizer",
+                            "B": "A marketing consultant",
+                            "C": "A department manager",
+                            "D": "A travel agent"
                         },
                         "answer": "C"
                     },
                     {
                         "id": "39",
-                        "question": "What does the woman imply when she says, \"The board of directors is meeting on Friday\"?",
+                        "question": "What did the man order for the woman?",
                         "options": {
-                            "A": "She cannot attend a meeting.",
-                            "B": "Some extra chairs are needed.",
-                            "C": "A task must be finished soon.",
-                            "D": "A room has already been reserved."
+                            "A": "A computer tablet",
+                            "B": "A credit card",
+                            "C": "Some furniture",
+                            "D": "Some office supplies"
                         },
-                        "answer": "C"
+                        "answer": "B"
                     },
                     {
                         "id": "40",
-                        "question": "What will the man do next?",
+                        "question": "What does the man suggest the woman do?",
                         "options": {
-                            "A": "Check a Web site",
-                            "B": "Speak with a supervisor",
-                            "C": "Take some measurements",
-                            "D": "Send an e-mail"
+                            "A": "Save receipts",
+                            "B": "Return a handbook",
+                            "C": "E-mail a client",
+                            "D": "Consult with a supervisor"
                         },
                         "answer": "A"
                     }
@@ -554,34 +632,34 @@ const toeicData = {
                 "questions": [
                     {
                         "id": "41",
-                        "question": "What is the man's problem?",
+                        "question": "What does the woman propose doing?",
                         "options": {
-                            "A": "He does not have a key to his office.",
-                            "B": "He is unable to log in to a computer.",
-                            "C": "He cannot find a document.",
-                            "D": "He does not know how to use some software."
+                            "A": "Hiring a computer technician",
+                            "B": "Using a training application",
+                            "C": "Replacing some printers",
+                            "D": "Changing business hours"
                         },
                         "answer": "B"
                     },
                     {
                         "id": "42",
-                        "question": "Why was the man out of the office?",
+                        "question": "What is the man concerned about?",
                         "options": {
-                            "A": "He was on vacation.",
-                            "B": "He was at a conference.",
-                            "C": "He was working at another location.",
-                            "D": "He was on medical leave."
+                            "A": "Scheduling delays",
+                            "B": "Employee satisfaction",
+                            "C": "The cost of a product",
+                            "D": "The quality of a product"
                         },
                         "answer": "C"
                     },
                     {
                         "id": "43",
-                        "question": "What does the woman say she will do?",
+                        "question": "According to the woman, what can be found on a website?",
                         "options": {
-                            "A": "Submit a request form",
-                            "B": "Call a technician",
-                            "C": "Create a new password",
-                            "D": "Print out some files"
+                            "A": "A company address",
+                            "B": "Customer reviews",
+                            "C": "A chat feature",
+                            "D": "Discount coupons"
                         },
                         "answer": "B"
                     }
@@ -593,36 +671,36 @@ const toeicData = {
                 "questions": [
                     {
                         "id": "44",
-                        "question": "Where most likely are the speakers?",
+                        "question": "What does the woman want to discuss?",
                         "options": {
-                            "A": "At a grocery store",
-                            "B": "At an art gallery",
-                            "C": "At a department store",
-                            "D": "At a furniture warehouse"
-                        },
-                        "answer": "B"
-                    },
-                    {
-                        "id": "45",
-                        "question": "What does the man want to do?",
-                        "options": {
-                            "A": "Purchase a gift",
-                            "B": "Meet an artist",
-                            "C": "Rent a space",
-                            "D": "Apply for a job"
+                            "A": "Job candidates",
+                            "B": "Vendor selections",
+                            "C": "Customer survey results",
+                            "D": "Computer system updates"
                         },
                         "answer": "C"
                     },
                     {
-                        "id": "46",
-                        "question": "What does the woman say about a basement?",
+                        "id": "45",
+                        "question": "Why does the man say, “The report’s only half a page long”?",
                         "options": {
-                            "A": "It is being renovated.",
-                            "B": "It is currently being used.",
-                            "C": "It is very large.",
-                            "D": "It is not expensive."
+                            "A": "To confirm some details",
+                            "B": "To express disappointment",
+                            "C": "To ask for another assignment",
+                            "D": "To refuse an offer"
                         },
-                        "answer": "A"
+                        "answer": "D"
+                    },
+                    {
+                        "id": "46",
+                        "question": "What does the woman remind the man about?",
+                        "options": {
+                            "A": "Checking a social media account",
+                            "B": "Unpacking some equipment",
+                            "C": "Making a reservation",
+                            "D": "Going to a print shop"
+                        },
+                        "answer": "C"
                     }
                 ],
                 "passage": "[Listen to the audio to answer the following questions.]"
@@ -632,36 +710,36 @@ const toeicData = {
                 "questions": [
                     {
                         "id": "47",
-                        "question": "What does the man want to buy?",
+                        "question": "What is the topic of the conversation?",
                         "options": {
-                            "A": "A printer",
-                            "B": "A camera",
-                            "C": "A television",
-                            "D": "A computer"
-                        },
-                        "answer": "C"
-                    },
-                    {
-                        "id": "48",
-                        "question": "What does the woman suggest?",
-                        "options": {
-                            "A": "Returning at a later time",
-                            "B": "Considering a different model",
-                            "C": "Waiting for a sale",
-                            "D": "Reading some reviews"
+                            "A": "A hiring initiative",
+                            "B": "A tax proposal",
+                            "C": "A volunteer opportunity",
+                            "D": "A community festival"
                         },
                         "answer": "B"
                     },
                     {
-                        "id": "49",
-                        "question": "What does the man ask about?",
+                        "id": "48",
+                        "question": "What is Ms. Haddad excited about?",
                         "options": {
-                            "A": "A store's hours",
-                            "B": "A repair policy",
-                            "C": "A delivery service",
-                            "D": "A discounted price"
+                            "A": "Attracting international visitors",
+                            "B": "Increasing employment opportunities",
+                            "C": "Installing bicycle lanes",
+                            "D": "Improving a health-care facility"
                         },
                         "answer": "C"
+                    },
+                    {
+                        "id": "49",
+                        "question": "What concern does the man point out?",
+                        "options": {
+                            "A": "Some equipment is missing",
+                            "B": "A project may be understaffed",
+                            "C": "Some safety guidelines are unclear",
+                            "D": "Some parking spaces may be lost"
+                        },
+                        "answer": "D"
                     }
                 ],
                 "passage": "[Listen to the audio to answer the following questions.]"
@@ -671,36 +749,36 @@ const toeicData = {
                 "questions": [
                     {
                         "id": "50",
-                        "question": "Who most likely is the man?",
+                        "question": "What did the woman recently review?",
                         "options": {
-                            "A": "An interior designer",
-                            "B": "A building manager",
-                            "C": "A maintenance worker",
-                            "D": "A real estate agent"
+                            "A": "A sales report",
+                            "B": "An assembly line",
+                            "C": "Some online brochures",
+                            "D": "Some assembly directions"
                         },
-                        "answer": "C"
+                        "answer": "A"
                     },
                     {
                         "id": "51",
-                        "question": "What problem does the woman mention?",
+                        "question": "What does the woman ask the man about?",
                         "options": {
-                            "A": "A wall is the wrong color.",
-                            "B": "A light is not working.",
-                            "C": "Some furniture is missing.",
-                            "D": "A window is broken."
+                            "A": "Packaging additional shipments",
+                            "B": "Hiring temporary employees",
+                            "C": "Changing a deadline",
+                            "D": "Sending a press release"
                         },
                         "answer": "B"
                     },
                     {
                         "id": "52",
-                        "question": "What will the woman most likely do next?",
+                        "question": "What information will the man provide this afternoon?",
                         "options": {
-                            "A": "Buy some supplies",
-                            "B": "Sign a contract",
-                            "C": "Go to a meeting",
-                            "D": "Call a different company"
+                            "A": "Overtime schedules",
+                            "B": "Design improvements",
+                            "C": "Production costs",
+                            "D": "Inventory status"
                         },
-                        "answer": "C"
+                        "answer": "D"
                     }
                 ],
                 "passage": "[Listen to the audio to answer the following questions.]"
@@ -710,36 +788,36 @@ const toeicData = {
                 "questions": [
                     {
                         "id": "53",
-                        "question": "Where is the woman?",
+                        "question": "What is the woman planning to do at two o’clock?",
                         "options": {
-                            "A": "At an electronics store",
-                            "B": "At an auto repair shop",
-                            "C": "At a dentist's office",
-                            "D": "At a dry cleaner's"
+                            "A": "Go to the airport",
+                            "B": "Receive a shipment",
+                            "C": "Meet with a customer",
+                            "D": "Give a workshop"
                         },
-                        "answer": "C"
+                        "answer": "D"
                     },
                     {
                         "id": "54",
-                        "question": "What does the woman say about her schedule?",
+                        "question": "What problem is the woman having?",
                         "options": {
-                            "A": "She is taking a vacation.",
-                            "B": "She has a deadline today.",
-                            "C": "She is about to leave for work.",
-                            "D": "She needs to pick up a friend."
+                            "A": "Her log-in information has expired",
+                            "B": "Her laptop cable does not work",
+                            "C": "Her reservation was not confirmed",
+                            "D": "Her mobile phone is missing"
                         },
-                        "answer": "C"
+                        "answer": "B"
                     },
                     {
                         "id": "55",
-                        "question": "What does the man suggest?",
+                        "question": "What does the man tell the woman to do?",
                         "options": {
-                            "A": "Rescheduling an appointment",
-                            "B": "Filling out some forms",
-                            "C": "Making a payment",
-                            "D": "Waiting in a different area"
+                            "A": "Search in her office",
+                            "B": "Visit an electronics store",
+                            "C": "Borrow some equipment",
+                            "D": "Contact a service team member"
                         },
-                        "answer": "B"
+                        "answer": "A"
                     }
                 ],
                 "passage": "[Listen to the audio to answer the following questions.]"
@@ -749,190 +827,190 @@ const toeicData = {
                 "questions": [
                     {
                         "id": "56",
-                        "question": "Where does the man work?",
+                        "question": "Who most likely are the speakers?",
                         "options": {
-                            "A": "At a hotel",
-                            "B": "At a fitness center",
-                            "C": "At a restaurant",
-                            "D": "At a food warehouse"
+                            "A": "Plumbers",
+                            "B": "Commercial architects",
+                            "C": "Road repair contractors",
+                            "D": "Landscapers"
                         },
                         "answer": "C"
                     },
                     {
                         "id": "57",
-                        "question": "What happened at the man's workplace recently?",
+                        "question": "Why will a project be rescheduled?",
                         "options": {
-                            "A": "The business was sold.",
-                            "B": "A new manager was hired.",
-                            "C": "A menu was changed.",
-                            "D": "Some equipment was upgraded."
-                        },
-                        "answer": "C"
-                    },
-                    {
-                        "id": "58",
-                        "question": "What does the woman offer to do?",
-                        "options": {
-                            "A": "Provide a price quote",
-                            "B": "Send some samples",
-                            "C": "Arrange a delivery",
-                            "D": "Review a contract"
-                        },
-                        "answer": "B"
-                    }
-                ],
-                "passage": "[Listen to the audio to answer the following questions.]"
-            },
-            {
-                "header": "Questions 58-60",
-                "questions": [
-                    {
-                        "id": "58",
-                        "question": "What does the woman offer to do?",
-                        "options": {
-                            "A": "Provide a price quote",
-                            "B": "Send some samples",
-                            "C": "Arrange a delivery",
-                            "D": "Review a contract"
-                        },
-                        "answer": "B"
-                    },
-                    {
-                        "id": "59",
-                        "question": "Where does the woman work?",
-                        "options": {
-                            "A": "At a museum",
-                            "B": "At a movie theater",
-                            "C": "At a newspaper office",
-                            "D": "At a photography studio"
+                            "A": "Rainy weather is expected",
+                            "B": "A design requires revisions",
+                            "C": "Some supplies have not arrived",
+                            "D": "A crew member is not available"
                         },
                         "answer": "A"
                     },
                     {
-                        "id": "60",
-                        "question": "Who does the woman say she has hired?",
+                        "id": "58",
+                        "question": "What will the speakers most likely do on Monday?",
                         "options": {
-                            "A": "An engineer",
-                            "B": "A musician",
-                            "C": "An interpreter",
-                            "D": "A scientist"
+                            "A": "Finalize a contract",
+                            "B": "Train some employees",
+                            "C": "Move some vehicles",
+                            "D": "Provide some consultations"
                         },
-                        "answer": "C"
+                        "answer": "D"
                     }
                 ],
                 "passage": "[Listen to the audio to answer the following questions.]"
             },
             {
-                "header": "Questions 61-63",
+                "header": "Questions 59-61",
                 "questions": [
                     {
-                        "id": "61",
-                        "question": "What problem does the man mention?",
+                        "id": "59",
+                        "question": "What field to the speakers most likely work in?",
                         "options": {
-                            "A": "Traffic noise",
-                            "B": "Late deliveries",
-                            "C": "Uncomfortable seating",
-                            "D": "Inadequate lighting"
+                            "A": "Education",
+                            "B": "Finance",
+                            "C": "Law",
+                            "D": "Medicine"
                         },
                         "answer": "D"
                     },
                     {
-                        "id": "62",
-                        "question": "Why does the man apologize?",
+                        "id": "60",
+                        "question": "What does the woman mean when she says, “I’ve presented at that conference before”?",
                         "options": {
-                            "A": "He lost a key.",
-                            "B": "He arrived late.",
-                            "C": "He turned off some equipment.",
-                            "D": "He forgot an instruction manual."
-                        },
-                        "answer": "B"
-                    },
-                    {
-                        "id": "63",
-                        "question": "According to the woman, why will the speakers be very busy today?",
-                        "options": {
-                            "A": "The agency is offering a discount.",
-                            "B": "A new rental office is opening.",
-                            "C": "There is a conference in town.",
-                            "D": "A sporting event will take place."
+                            "A": "She has a lot of professional experience",
+                            "B": "She dislikes giving presentations",
+                            "C": "She understands the man’s situation",
+                            "D": "She has completed a requirement"
                         },
                         "answer": "C"
+                    },
+                    {
+                        "id": "61",
+                        "question": "What do the speakers agree to do?",
+                        "options": {
+                            "A": "Temporarily close an office",
+                            "B": "Postpone hiring an employee",
+                            "C": "Work on a presentation together",
+                            "D": "Contact some clients"
+                        },
+                        "answer": "B"
                     }
                 ],
                 "passage": "[Listen to the audio to answer the following questions.]"
             },
             {
-                "header": "Questions 64-66",
+                "header": "Questions 62-64",
                 "questions": [
                     {
-                        "id": "64",
-                        "question": "Look at the graphic. Where will the man go first?",
+                        "id": "62",
+                        "question": "Why does the man want to return an item?",
                         "options": {
-                            "A": "Area 1",
-                            "B": "Area 2",
-                            "C": "Area 3",
-                            "D": "Area 4"
+                            "A": "It has a stain",
+                            "B": "It has a tear",
+                            "C": "It is the wrong color",
+                            "D": "It is too large"
                         },
-                        "answer": "B"
+                        "answer": "A"
                     },
                     {
-                        "id": "65",
-                        "question": "Where does the conversation take place?",
+                        "id": "63",
+                        "question": "Look at the graphic. Which item does the man want to return?",
                         "options": {
-                            "A": "At a concert hall",
-                            "B": "At a museum",
-                            "C": "At a sports stadium",
-                            "D": "At a movie theater"
+                            "A": "The jacket",
+                            "B": "The sweater",
+                            "C": "The scarf",
+                            "D": "The T-shirt"
+                        },
+                        "answer": "C"
+                    },
+                    {
+                        "id": "64",
+                        "question": "What does the woman offer to do for the man?",
+                        "options": {
+                            "A": "Issue a refund to his credit card",
+                            "B": "Set up an account for him",
+                            "C": "Consult with a manager",
+                            "D": "Call another branch store"
+                        },
+                        "answer": "A"
+                    }
+                ],
+                "passage": "[Listen to the audio to answer the following questions.]"
+            },
+            {
+                "header": "Questions 65-67",
+                "questions": [
+                    {
+                        "id": "65",
+                        "question": "What type of event are the speakers discussing?",
+                        "options": {
+                            "A": "A retirement party",
+                            "B": "A wedding",
+                            "C": "A garden show",
+                            "D": "A grand opening"
                         },
                         "answer": "B"
                     },
                     {
                         "id": "66",
-                        "question": "Look at the graphic. Why is the woman's ticket discounted?",
+                        "question": "According to the woman, what has caused a problem?",
                         "options": {
-                            "A": "It is a Monday.",
-                            "B": "It is after 5 P.M.",
-                            "C": "She is a student.",
-                            "D": "She is a member."
+                            "A": "An invoice error",
+                            "B": "A rainstorm",
+                            "C": "A supply shortage",
+                            "D": "A reservation cancellation"
                         },
-                        "answer": "A"
+                        "answer": "C"
+                    },
+                    {
+                        "id": "67",
+                        "question": "Look at the graphic. Which flowers will be used in the arrangements?",
+                        "options": {
+                            "A": "Lilies",
+                            "B": "Tulips",
+                            "C": "Roses",
+                            "D": "Orchids"
+                        },
+                        "answer": "B"
                     }
                 ],
                 "passage": "[Listen to the audio to answer the following questions.]"
             },
             {
-                "header": "Questions 67-69",
+                "header": "Questions 68-70",
                 "questions": [
                     {
-                        "id": "67",
-                        "question": "What will the woman most likely do next?",
+                        "id": "68",
+                        "question": "Look at the graphic. What is the status of the woman’s flight?",
                         "options": {
-                            "A": "Select a meeting time",
-                            "B": "Eat at a café",
-                            "C": "Go on a tour",
-                            "D": "Attend a lecture"
+                            "A": "40 minutes late",
+                            "B": "On time",
+                            "C": "55 minutes late",
+                            "D": "25 minutes late"
                         },
-                        "answer": "D"
+                        "answer": "C"
                     },
                     {
-                        "id": "68",
-                        "question": "Where does the conversation most likely take place?",
+                        "id": "69",
+                        "question": "What kind of company do the speakers work for?",
                         "options": {
-                            "A": "At a café",
-                            "B": "At an electronics shop",
-                            "C": "At a stationery store",
-                            "D": "At a clothing store"
+                            "A": "A fabric manufacturer",
+                            "B": "A clothing store",
+                            "C": "A travel agency",
+                            "D": "A newspaper published"
                         },
                         "answer": "A"
                     },
                     {
-                        "id": "69",
-                        "question": "Look at the graphic. How much will the man save on his purchase?",
+                        "id": "70",
+                        "question": "What does the man say he is going to do?",
                         "options": {
-                            "A": "5%",
-                            "B": "3%",
-                            "C": "7%",
-                            "D": "2%"
+                            "A": "Open another bank account",
+                            "B": "Extend business hours",
+                            "C": "Review a contract",
+                            "D": "Change a meeting time"
                         },
                         "answer": "D"
                     }
@@ -946,36 +1024,36 @@ const toeicData = {
                 "questions": [
                     {
                         "id": "32",
-                        "question": "What are the speakers discussing?",
+                        "question": "What is the woman preparing for?",
                         "options": {
-                            "A": "A new company policy",
-                            "B": "A renovation project",
-                            "C": "A job opening",
-                            "D": "An upcoming holiday"
+                            "A": "A move to a new city",
+                            "B": "A business trip",
+                            "C": "A building tour",
+                            "D": "A meeting with visiting colleagues"
                         },
-                        "answer": "C"
+                        "answer": "D"
                     },
                     {
                         "id": "33",
-                        "question": "What does the man say about a candidate?",
+                        "question": "Who most likely is the man?",
                         "options": {
-                            "A": "She has a lot of experience.",
-                            "B": "She lives nearby.",
-                            "C": "She is very creative.",
-                            "D": "She is available to start immediately."
+                            "A": "An accountant",
+                            "B": "An administrative assistant",
+                            "C": "A marketing director",
+                            "D": "A company president"
                         },
-                        "answer": "C"
+                        "answer": "B"
                     },
                     {
                         "id": "34",
-                        "question": "What will the speakers do next?",
+                        "question": "What does the woman want to pick up on Friday morning?",
                         "options": {
-                            "A": "Contact a reference",
-                            "B": "Review a budget",
-                            "C": "Schedule an interview",
-                            "D": "Look at a portfolio"
+                            "A": "A building map",
+                            "B": "A room key",
+                            "C": "An ID card",
+                            "D": "A parking pass"
                         },
-                        "answer": "D"
+                        "answer": "B"
                     }
                 ],
                 "passage": "[Listen to the audio to answer the following questions.]"
@@ -985,36 +1063,36 @@ const toeicData = {
                 "questions": [
                     {
                         "id": "35",
-                        "question": "Where most likely are the speakers?",
+                        "question": "Who most likely is the man?",
                         "options": {
-                            "A": "At a furniture store",
-                            "B": "At a construction site",
-                            "C": "At a real estate office",
-                            "D": "At a law firm"
+                            "A": "A bank teller",
+                            "B": "A librarian",
+                            "C": "A mail carrier",
+                            "D": "A truck driver"
                         },
-                        "answer": "C"
+                        "answer": "B"
                     },
                     {
                         "id": "36",
-                        "question": "What problem does the man mention?",
+                        "question": "What does the woman ask about?",
                         "options": {
-                            "A": "A contract is missing.",
-                            "B": "A deadline is approaching.",
-                            "C": "A client is late.",
-                            "D": "A budget is too small."
+                            "A": "A method of payment",
+                            "B": "A type of delivery",
+                            "C": "A way to fill out a form",
+                            "D": "A schedule change"
                         },
-                        "answer": "B"
+                        "answer": "A"
                     },
                     {
                         "id": "37",
-                        "question": "What does the woman suggest?",
+                        "question": "What does the man say he will do?",
                         "options": {
-                            "A": "Hiring more staff",
-                            "B": "Rescheduling a meeting",
-                            "C": "Renting a different space",
-                            "D": "Purchasing new equipment"
+                            "A": "Look up some information",
+                            "B": "Print a document",
+                            "C": "Check on a machine",
+                            "D": "Update an account"
                         },
-                        "answer": "B"
+                        "answer": "C"
                     }
                 ],
                 "passage": "[Listen to the audio to answer the following questions.]"
@@ -1024,36 +1102,36 @@ const toeicData = {
                 "questions": [
                     {
                         "id": "38",
-                        "question": "Why is the man calling?",
+                        "question": "Why is the woman calling?",
                         "options": {
-                            "A": "To request a price estimate",
-                            "B": "To confirm a reservation",
-                            "C": "To report a problem",
-                            "D": "To ask for a refund"
+                            "A": "To update an address",
+                            "B": "To make a complaint",
+                            "C": "To renew a subscription",
+                            "D": "To inquire about employment"
                         },
                         "answer": "C"
                     },
                     {
                         "id": "39",
-                        "question": "What does the man mention about a laptop?",
+                        "question": "Why does the man apologize?",
                         "options": {
-                            "A": "It was expensive.",
-                            "B": "It is very light.",
-                            "C": "It is not working correctly.",
-                            "D": "It has a long battery life."
+                            "A": "A discount does not apply",
+                            "B": "A service agreement has ended",
+                            "C": "A business has closed",
+                            "D": "A security procedure has changed"
                         },
-                        "answer": "C"
+                        "answer": "A"
                     },
                     {
                         "id": "40",
-                        "question": "What does the woman say she will do?",
+                        "question": "What does the man say he will do?",
                         "options": {
-                            "A": "Send a technician",
-                            "B": "Provide a discount",
-                            "C": "Ship a replacement",
-                            "D": "Update some software"
+                            "A": "Change a delivery time",
+                            "B": "Send a document",
+                            "C": "Speak with a supervisor",
+                            "D": "Provide a phone number"
                         },
-                        "answer": "A"
+                        "answer": "B"
                     }
                 ],
                 "passage": "[Listen to the audio to answer the following questions.]"
@@ -1063,36 +1141,36 @@ const toeicData = {
                 "questions": [
                     {
                         "id": "41",
-                        "question": "What is the woman planning to do?",
+                        "question": "What kind of a business does the man most likely work for?",
                         "options": {
-                            "A": "Start a business",
-                            "B": "Go on a vacation",
-                            "C": "Move to a new city",
-                            "D": "Attend a conference"
+                            "A": "A legal consulting firm",
+                            "B": "An architecture firm",
+                            "C": "A firm production company",
+                            "D": "A book publishing company"
                         },
-                        "answer": "B"
+                        "answer": "C"
                     },
                     {
                         "id": "42",
-                        "question": "What does the man offer to do?",
+                        "question": "What does the woman say she is concerned about?",
                         "options": {
-                            "A": "Give a recommendation",
-                            "B": "Borrow some equipment",
-                            "C": "Provide a map",
-                            "D": "Make a reservation"
+                            "A": "The length of a project",
+                            "B": "The cost of an order",
+                            "C": "The opinion of the public",
+                            "D": "The skills of some workers"
                         },
-                        "answer": "B"
+                        "answer": "A"
                     },
                     {
                         "id": "43",
-                        "question": "What does the woman say she needs to buy?",
+                        "question": "What does the woman agree to let the man do?",
                         "options": {
-                            "A": "A suitcase",
-                            "B": "A camera lens",
-                            "C": "A pair of boots",
-                            "D": "A guidebook"
+                            "A": "Submit an application",
+                            "B": "Speak at a meeting",
+                            "C": "Review some books",
+                            "D": "Measure a space"
                         },
-                        "answer": "C"
+                        "answer": "B"
                     }
                 ],
                 "passage": "[Listen to the audio to answer the following questions.]"
@@ -1102,36 +1180,36 @@ const toeicData = {
                 "questions": [
                     {
                         "id": "44",
-                        "question": "Where do the speakers most likely work?",
+                        "question": "What are the speakers discussing?",
                         "options": {
-                            "A": "At a hotel",
-                            "B": "At a travel agency",
-                            "C": "At a marketing firm",
-                            "D": "At a printing shop"
+                            "A": "A new product",
+                            "B": "A company merger",
+                            "C": "Cost estimates",
+                            "D": "Survey results"
+                        },
+                        "answer": "D"
+                    },
+                    {
+                        "id": "45",
+                        "question": "According to the man, what is the main problem?",
+                        "options": {
+                            "A": "His team is unable to complete a project on time",
+                            "B": "Some employees did not receive a salary increase",
+                            "C": "There is too much noise in the office",
+                            "D": "There are not enough parking spaces"
                         },
                         "answer": "C"
                     },
                     {
-                        "id": "45",
-                        "question": "What does the man mean when he says, \"it's already ten o'clock\"?",
-                        "options": {
-                            "A": "He is hungry for lunch.",
-                            "B": "A task is urgent.",
-                            "C": "He is surprised by the time.",
-                            "D": "A meeting has started."
-                        },
-                        "answer": "B"
-                    },
-                    {
                         "id": "46",
-                        "question": "What will the woman do next?",
+                        "question": "What does the woman suggest doing?",
                         "options": {
-                            "A": "Call a client",
-                            "B": "Review a document",
-                            "C": "Print some flyers",
-                            "D": "Order some supplies"
+                            "A": "Reminding people about a company policy",
+                            "B": "Hiring some temporary staff",
+                            "C": "Moving to a different building",
+                            "D": "Speaking to the management team"
                         },
-                        "answer": "B"
+                        "answer": "A"
                     }
                 ],
                 "passage": "[Listen to the audio to answer the following questions.]"
@@ -1141,34 +1219,34 @@ const toeicData = {
                 "questions": [
                     {
                         "id": "47",
-                        "question": "What is the woman doing?",
+                        "question": "What does the speaker’s company most likely sell?",
                         "options": {
-                            "A": "Buying a gift",
-                            "B": "Returning a product",
-                            "C": "Picking up an order",
-                            "D": "Asking for a discount"
+                            "A": "Electronics",
+                            "B": "Closing",
+                            "C": "Food",
+                            "D": "Automobiles"
+                        },
+                        "answer": "D"
+                    },
+                    {
+                        "id": "48",
+                        "question": "Why is the woman surprised?",
+                        "options": {
+                            "A": "Some software is expensive",
+                            "B": "A color is very bright",
+                            "C": "The man has completed a report",
+                            "D": "The man bought a new car"
                         },
                         "answer": "C"
                     },
                     {
-                        "id": "48",
-                        "question": "Why does the man apologize?",
-                        "options": {
-                            "A": "A store is closed.",
-                            "B": "An item is not ready.",
-                            "C": "A price is incorrect.",
-                            "D": "A machine is broken."
-                        },
-                        "answer": "B"
-                    },
-                    {
                         "id": "49",
-                        "question": "What does the man say he will do?",
+                        "question": "Why does the woman say, “The slides are available on our company intranet”?",
                         "options": {
-                            "A": "Call a manager",
-                            "B": "Provide a refund",
-                            "C": "Give a free gift",
-                            "D": "Check a delivery schedule"
+                            "A": "To request assistance reviewing a document",
+                            "B": "To recommend using a document as a reference",
+                            "C": "To report that a task has been completed",
+                            "D": "To indicate that a file is in the wrong location"
                         },
                         "answer": "B"
                     }
@@ -1180,36 +1258,36 @@ const toeicData = {
                 "questions": [
                     {
                         "id": "50",
-                        "question": "What are the speakers discussing?",
+                        "question": "What did the woman win a prize for?",
                         "options": {
-                            "A": "A new employee",
-                            "B": "A catering menu",
-                            "C": "A project deadline",
-                            "D": "A training session"
+                            "A": "Having the highest sales numbers",
+                            "B": "Providing excellent customer service",
+                            "C": "Working at the company for ten years",
+                            "D": "Reducing costs on a project"
                         },
-                        "answer": "B"
+                        "answer": "A"
                     },
                     {
                         "id": "51",
-                        "question": "What does the man suggest?",
+                        "question": "What will the woman do this weekend?",
                         "options": {
-                            "A": "Changing a location",
-                            "B": "Reducing a budget",
-                            "C": "Adding a dish",
-                            "D": "Postponing an event"
+                            "A": "Visit a branch office",
+                            "B": "Attend a conference",
+                            "C": "Join a fitness club",
+                            "D": "Go on a vacation"
                         },
-                        "answer": "C"
+                        "answer": "D"
                     },
                     {
                         "id": "52",
-                        "question": "What will the man do next?",
+                        "question": "What does the woman say she will do with the prize?",
                         "options": {
-                            "A": "Send an e-mail",
-                            "B": "Update a document",
-                            "C": "Call a vendor",
-                            "D": "Print some menus"
+                            "A": "Display it in her office",
+                            "B": "Exchange it at the store",
+                            "C": "Offer it to someone else",
+                            "D": "Use it at a later date"
                         },
-                        "answer": "B"
+                        "answer": "C"
                     }
                 ],
                 "passage": "[Listen to the audio to answer the following questions.]"
@@ -1219,34 +1297,34 @@ const toeicData = {
                 "questions": [
                     {
                         "id": "53",
-                        "question": "Where most likely are the speakers?",
+                        "question": "What do the speakers find surprising about a restaurant?",
                         "options": {
-                            "A": "At an airport",
-                            "B": "At a train station",
-                            "C": "At a bus stop",
-                            "D": "At a car rental agency"
+                            "A": "Its prices",
+                            "B": "Its popularity",
+                            "C": "Its menu options",
+                            "D": "Its décor"
                         },
                         "answer": "B"
                     },
                     {
                         "id": "54",
-                        "question": "What problem does the man mention?",
+                        "question": "Why are the speakers in a hurry?",
                         "options": {
-                            "A": "A flight is canceled.",
-                            "B": "A ticket is lost.",
-                            "C": "A track is closed.",
-                            "D": "A bag is too heavy."
+                            "A": "They need to catch a train",
+                            "B": "They will be conducting an interview",
+                            "C": "They will be leading a training session",
+                            "D": "A business is about to close"
                         },
                         "answer": "C"
                     },
                     {
                         "id": "55",
-                        "question": "What does the woman say she will do?",
+                        "question": "What will the speakers most likely do next?",
                         "options": {
-                            "A": "Check a schedule",
-                            "B": "Buy a new ticket",
-                            "C": "Use a different entrance",
-                            "D": "Call a friend"
+                            "A": "Go to another restaurant",
+                            "B": "Try a free sample",
+                            "C": "Order food to go",
+                            "D": "Pay a bill"
                         },
                         "answer": "C"
                     }
@@ -1258,34 +1336,112 @@ const toeicData = {
                 "questions": [
                     {
                         "id": "56",
-                        "question": "Who most likely is the woman?",
+                        "question": "What does the woman imply when she says, “I don’t have much to do”?",
                         "options": {
-                            "A": "A chef",
-                            "B": "A journalist",
-                            "C": "A fitness instructor",
-                            "D": "A store manager"
+                            "A": "She has time to help",
+                            "B": "She plans to leave work early",
+                            "C": "Her computer is not working",
+                            "D": "She has not received an assignment"
                         },
-                        "answer": "C"
+                        "answer": "A"
                     },
                     {
                         "id": "57",
-                        "question": "What is the purpose of the man's call?",
+                        "question": "What does the man notice about some medication?",
                         "options": {
-                            "A": "To request a refund",
-                            "B": "To complain about a service",
-                            "C": "To ask about a membership",
-                            "D": "To book a private session"
+                            "A": "It needs to be refrigerated",
+                            "B": "It has expired",
+                            "C": "The dosage has changed",
+                            "D": "The supply is limited"
+                        },
+                        "answer": "D"
+                    },
+                    {
+                        "id": "58",
+                        "question": "What does the man suggest doing in the future?",
+                        "options": {
+                            "A": "Installing some shelves",
+                            "B": "Confirming with a doctor",
+                            "C": "Increasing an order amount",
+                            "D": "Recommending a different medication"
+                        },
+                        "answer": "C"
+                    }
+                ],
+                "passage": "[Listen to the audio to answer the following questions.]"
+            },
+            {
+                "header": "Questions 59-61",
+                "questions": [
+                    {
+                        "id": "59",
+                        "question": "Why is the woman at Regal Advertising?",
+                        "options": {
+                            "A": "For a photography session",
+                            "B": "For a client consultation",
+                            "C": "For a job interview",
+                            "D": "For a building opening"
                         },
                         "answer": "C"
                     },
                     {
-                        "id": "58",
-                        "question": "What does the woman offer to do?",
+                        "id": "60",
+                        "question": "What does the woman say is her specialty?",
                         "options": {
-                            "A": "Give a discount",
-                            "B": "Provide a tour",
-                            "C": "Send a brochure",
-                            "D": "Schedule an interview"
+                            "A": "Researching international laws",
+                            "B": "Creating designs for billboards",
+                            "C": "Building a strong customer base",
+                            "D": "Finding cost-efficient business solutions"
+                        },
+                        "answer": "B"
+                    },
+                    {
+                        "id": "61",
+                        "question": "What does the woman say she appreciates about Regal?",
+                        "options": {
+                            "A": "The company creates unique designs",
+                            "B": "The company has offices overseas",
+                            "C": "The company is dedicated to research",
+                            "D": "The company values its employees"
+                        },
+                        "answer": "D"
+                    }
+                ],
+                "passage": "[Listen to the audio to answer the following questions.]"
+            },
+            {
+                "header": "Questions 62-64",
+                "questions": [
+                    {
+                        "id": "62",
+                        "question": "Look at the graphic. Which floor with the man visit?",
+                        "options": {
+                            "A": "Floor 1",
+                            "B": "Floor 2",
+                            "C": "Floor 3",
+                            "D": "Floor 4"
+                        },
+                        "answer": "C"
+                    },
+                    {
+                        "id": "63",
+                        "question": "Why is the man calling the store?",
+                        "options": {
+                            "A": "To complain about receiving a faulty product",
+                            "B": "To point out an error in an invoice",
+                            "C": "To ask about seeing some merchandise",
+                            "D": "To request delivery of a catalog"
+                        },
+                        "answer": "C"
+                    },
+                    {
+                        "id": "64",
+                        "question": "What does the woman assure the man about?",
+                        "options": {
+                            "A": "An online payment system is secure",
+                            "B": "A building is wheelchair accessible",
+                            "C": "A product is eligible for a refund",
+                            "D": "A food court is open daily"
                         },
                         "answer": "B"
                     }
@@ -1297,18 +1453,18 @@ const toeicData = {
                 "questions": [
                     {
                         "id": "65",
-                        "question": "Why did the man go to the second floor?",
+                        "question": "Why is the man surprised?",
                         "options": {
-                            "A": "To attend a meeting",
-                            "B": "To look for a book",
-                            "C": "To meet a coworker",
-                            "D": "To use a computer"
+                            "A": "A popular band is coming to town",
+                            "B": "The woman plays a musical instrument",
+                            "C": "The woman was able to get concert tickets",
+                            "D": "Some musicians scheduled a second concert"
                         },
-                        "answer": "B"
+                        "answer": "C"
                     },
                     {
                         "id": "66",
-                        "question": "Look at the graphic. Which section was the man in?",
+                        "question": "Look at the graphic. In which section does the woman have seats?",
                         "options": {
                             "A": "Section 1",
                             "B": "Section 2",
@@ -1319,14 +1475,14 @@ const toeicData = {
                     },
                     {
                         "id": "67",
-                        "question": "What will the man most likely do next?",
+                        "question": "What is the woman doing this weekend?",
                         "options": {
-                            "A": "Call a manager",
-                            "B": "Buy a bag",
-                            "C": "Go to a different floor",
-                            "D": "Pay for a membership"
+                            "A": "Practicing with her band",
+                            "B": "Entering a radio contest",
+                            "C": "Moving to Boston",
+                            "D": "Attending a party"
                         },
-                        "answer": "C"
+                        "answer": "D"
                     }
                 ],
                 "passage": "[Listen to the audio to answer the following questions.]"
@@ -1336,36 +1492,36 @@ const toeicData = {
                 "questions": [
                     {
                         "id": "68",
-                        "question": "Where does the man work?",
+                        "question": "Who most likely are the speakers?",
                         "options": {
-                            "A": "At a hotel",
-                            "B": "At a restaurant",
-                            "C": "At a travel agency",
-                            "D": "At a taxi company"
+                            "A": "Architects",
+                            "B": "Government officials",
+                            "C": "News reporters",
+                            "D": "Contractors"
                         },
-                        "answer": "A"
+                        "answer": "C"
                     },
                     {
                         "id": "69",
-                        "question": "Look at the graphic. Which shuttle will the woman most likely take?",
+                        "question": "What does the woman say she had access to?",
                         "options": {
-                            "A": "Shuttle A",
-                            "B": "Shuttle B",
-                            "C": "Shuttle C",
-                            "D": "Shuttle D"
+                            "A": "Uniform designs",
+                            "B": "Sporting event tickets",
+                            "C": "A company vehicle",
+                            "D": "Bid proposals"
                         },
-                        "answer": "B"
+                        "answer": "D"
                     },
                     {
                         "id": "70",
-                        "question": "What does the man say he will do?",
+                        "question": "Look at the graphic. According to the woman, where will a stadium most likely be located?",
                         "options": {
-                            "A": "Print a map",
-                            "B": "Provide a voucher",
-                            "C": "Call a driver",
-                            "D": "Reserve a seat"
+                            "A": "At site A",
+                            "B": "At site B",
+                            "C": "At site C",
+                            "D": "At site D"
                         },
-                        "answer": "B"
+                        "answer": "C"
                     }
                 ],
                 "passage": "[Listen to the audio to answer the following questions.]"
@@ -1486,7 +1642,7 @@ const toeicData = {
                             "C": "Where to park",
                             "D": "Which days to visit"
                         },
-                        "answer": "C"
+                        "answer": "D"
                     }
                 ],
                 "passage": "[Listen to the audio to answer the following questions.]"
@@ -1767,449 +1923,40 @@ const toeicData = {
         ],
         "De 2": [
             {
-                "header": "Questions 70-72",
-                "questions": [
-                    {
-                        "id": "70",
-                        "question": "What does the man say he will do later today?",
-                        "options": {
-                            "A": "Call a business",
-                            "B": "Return some merchandise",
-                            "C": "Fill out an online survey",
-                            "D": "Clean a work area"
-                        },
-                        "answer": "A"
-                    },
-                    {
-                        "id": "71",
-                        "question": "Where is the announcement most likely being made?",
-                        "options": {
-                            "A": "At a train station",
-                            "B": "At a bus station",
-                            "C": "At an airport",
-                            "D": "At a ferry terminal"
-                        },
-                        "answer": "B"
-                    },
-                    {
-                        "id": "72",
-                        "question": "Why is a change being made?",
-                        "options": {
-                            "A": "It will improve traffic flow.",
-                            "B": "It will keep prices low.",
-                            "C": "It will increase energy efficiency.",
-                            "D": "It will save staff time."
-                        },
-                        "answer": "A"
-                    }
-                ],
-                "passage": "[Listen to the audio to answer the following questions.]"
-            },
-            {
-                "header": "Questions 73-75",
-                "questions": [
-                    {
-                        "id": "73",
-                        "question": "What does the speaker recommend?",
-                        "options": {
-                            "A": "Filling out a survey",
-                            "B": "Printing some tickets",
-                            "C": "Checking online for updates",
-                            "D": "Allowing extra time"
-                        },
-                        "answer": "D"
-                    },
-                    {
-                        "id": "74",
-                        "question": "What does the listener want to do?",
-                        "options": {
-                            "A": "Hire a caterer",
-                            "B": "Purchase a painting",
-                            "C": "Have a printer repaired",
-                            "D": "Have a photograph framed"
-                        },
-                        "answer": "D"
-                    },
-                    {
-                        "id": "75",
-                        "question": "What does the speaker expect the listener to do on a Web site?",
-                        "options": {
-                            "A": "View a list of prices",
-                            "B": "Place an order",
-                            "C": "Schedule a time to meet",
-                            "D": "Read customer reviews"
-                        },
-                        "answer": "B"
-                    }
-                ],
-                "passage": "[Listen to the audio to answer the following questions.]"
-            },
-            {
-                "header": "Questions 76-78",
-                "questions": [
-                    {
-                        "id": "76",
-                        "question": "What is included for an extra fee?",
-                        "options": {
-                            "A": "Shipping",
-                            "B": "An artist's signature",
-                            "C": "A newsletter",
-                            "D": "A warranty"
-                        },
-                        "answer": "D"
-                    },
-                    {
-                        "id": "77",
-                        "question": "How does each tour begin?",
-                        "options": {
-                            "A": "Refreshments are served.",
-                            "B": "Safety equipment is explained.",
-                            "C": "A video is shown.",
-                            "D": "Maps are distributed."
-                        },
-                        "answer": "C"
-                    },
-                    {
-                        "id": "78",
-                        "question": "What kind of gift do participants receive?",
-                        "options": {
-                            "A": "A discount coupon",
-                            "B": "A bag of snacks",
-                            "C": "A T-shirt",
-                            "D": "A postcard"
-                        },
-                        "answer": "B"
-                    }
-                ],
-                "passage": "[Listen to the audio to answer the following questions.]"
-            },
-            {
-                "header": "Questions 79-81",
-                "questions": [
-                    {
-                        "id": "79",
-                        "question": "What does the speaker warn the listeners about?",
-                        "options": {
-                            "A": "How to pay for food",
-                            "B": "What clothes to wear",
-                            "C": "Where to park",
-                            "D": "Which days to visit"
-                        },
-                        "answer": "C"
-                    },
-                    {
-                        "id": "80",
-                        "question": "What is the purpose of the advertisement?",
-                        "options": {
-                            "A": "To announce a contest",
-                            "B": "To promote an upcoming sale",
-                            "C": "To introduce new services",
-                            "D": "To recruit employees"
-                        },
-                        "answer": "D"
-                    },
-                    {
-                        "id": "81",
-                        "question": "How is the speaker's company different from its competitors?",
-                        "options": {
-                            "A": "It is dependable.",
-                            "B": "It produces innovative products.",
-                            "C": "It offers flexible schedules.",
-                            "D": "It pays employees well."
-                        },
-                        "answer": "C"
-                    }
-                ],
-                "passage": "[Listen to the audio to answer the following questions.]"
-            },
-            {
-                "header": "Questions 82-84",
-                "questions": [
-                    {
-                        "id": "82",
-                        "question": "What does the speaker encourage the listeners to do?",
-                        "options": {
-                            "A": "Complete a survey",
-                            "B": "Fill out an application",
-                            "C": "Place an order",
-                            "D": "Get more information"
-                        },
-                        "answer": "D"
-                    },
-                    {
-                        "id": "83",
-                        "question": "What is the topic of the seminar?",
-                        "options": {
-                            "A": "Finance basics",
-                            "B": "Marketing strategies",
-                            "C": "Manufacturing processes",
-                            "D": "Hiring procedures"
-                        },
-                        "answer": "B"
-                    },
-                    {
-                        "id": "84",
-                        "question": "What does the speaker say is available on a Web site?",
-                        "options": {
-                            "A": "An electronic book",
-                            "B": "Different payment options",
-                            "C": "Free legal advice",
-                            "D": "Printable certificates"
-                        },
-                        "answer": "A"
-                    }
-                ],
-                "passage": "[Listen to the audio to answer the following questions.]"
-            },
-            {
-                "header": "Questions 85-87",
-                "questions": [
-                    {
-                        "id": "85",
-                        "question": "What does the speaker ask the listeners to do next?",
-                        "options": {
-                            "A": "Introduce themselves",
-                            "B": "Hand in some paperwork",
-                            "C": "Read a short paragraph",
-                            "D": "Listen to some examples"
-                        },
-                        "answer": "A"
-                    },
-                    {
-                        "id": "86",
-                        "question": "What is the speaker mainly discussing?",
-                        "options": {
-                            "A": "A job fair",
-                            "B": "A factory",
-                            "C": "Some traffic patterns",
-                            "D": "A prototype electric vehicle"
-                        },
-                        "answer": "B"
-                    },
-                    {
-                        "id": "87",
-                        "question": "What does the speaker imply when he says, \"No one made any comments\"?",
-                        "options": {
-                            "A": "Few people were in attendance.",
-                            "B": "Another meeting will be scheduled.",
-                            "C": "A project has community support.",
-                            "D": "A public comment period has ended."
-                        },
-                        "answer": "C"
-                    }
-                ],
-                "passage": "[Listen to the audio to answer the following questions.]"
-            },
-            {
-                "header": "Questions 88-90",
-                "questions": [
-                    {
-                        "id": "88",
-                        "question": "What can the public view at the city hall building?",
-                        "options": {
-                            "A": "An official contract",
-                            "B": "Some images",
-                            "C": "A list of companies",
-                            "D": "Some facts about local politicians"
-                        },
-                        "answer": "B"
-                    },
-                    {
-                        "id": "89",
-                        "question": "Where is the talk taking place?",
-                        "options": {
-                            "A": "At an awards ceremony",
-                            "B": "At an exhibit opening",
-                            "C": "At a club meeting",
-                            "D": "At a national park tour"
-                        },
-                        "answer": "C"
-                    },
-                    {
-                        "id": "90",
-                        "question": "What did Kentaro Nakamura recently do?",
-                        "options": {
-                            "A": "He published a book.",
-                            "B": "He started a conservation society.",
-                            "C": "He won a photography contest.",
-                            "D": "He conducted a research project."
-                        },
-                        "answer": "D"
-                    }
-                ],
-                "passage": "[Listen to the audio to answer the following questions.]"
-            },
-            {
-                "header": "Questions 91-93",
-                "questions": [
-                    {
-                        "id": "91",
-                        "question": "What are the listeners invited to do after the event?",
-                        "options": {
-                            "A": "Enjoy some refreshments",
-                            "B": "Sign up to volunteer",
-                            "C": "Purchase some souvenirs",
-                            "D": "Take some maps"
-                        },
-                        "answer": "A"
-                    },
-                    {
-                        "id": "92",
-                        "question": "What is the speaker mainly discussing?",
-                        "options": {
-                            "A": "A department merger",
-                            "B": "A project plan",
-                            "C": "A staffing change",
-                            "D": "A trade show presentation"
-                        },
-                        "answer": "C"
-                    },
-                    {
-                        "id": "93",
-                        "question": "What are the listeners asked to sign?",
-                        "options": {
-                            "A": "A greeting card",
-                            "B": "A participant list",
-                            "C": "A group photograph",
-                            "D": "A registration form"
-                        },
-                        "answer": "A"
-                    }
-                ],
-                "passage": "[Listen to the audio to answer the following questions.]"
-            },
-            {
-                "header": "Questions 94-96",
-                "questions": [
-                    {
-                        "id": "94",
-                        "question": "Why does the speaker say, \"he does have fourteen years of experience\"?",
-                        "options": {
-                            "A": "To express surprise",
-                            "B": "To disagree with a suggestion",
-                            "C": "To correct a misunderstanding",
-                            "D": "To offer reassurance"
-                        },
-                        "answer": "D"
-                    },
-                    {
-                        "id": "95",
-                        "question": "What will take place this Friday?",
-                        "options": {
-                            "A": "An industry award ceremony",
-                            "B": "A fund-raising dinner",
-                            "C": "A company anniversary event",
-                            "D": "A holiday celebration"
-                        },
-                        "answer": "C"
-                    },
-                    {
-                        "id": "96",
-                        "question": "Look at the graphic. Where does the speaker want some audio equipment?",
-                        "options": {
-                            "A": "Next to table 1",
-                            "B": "Next to table 2",
-                            "C": "Next to table 3",
-                            "D": "Next to table 4"
-                        },
-                        "answer": "A"
-                    }
-                ],
-                "passage": "[Listen to the audio to answer the following questions.]"
-            },
-            {
-                "header": "Questions 97-99",
-                "questions": [
-                    {
-                        "id": "97",
-                        "question": "What has the speaker shipped to the hotel?",
-                        "options": {
-                            "A": "Some tablecloths",
-                            "B": "Some vases",
-                            "C": "Some aprons",
-                            "D": "Some glasses"
-                        },
-                        "answer": "B"
-                    },
-                    {
-                        "id": "98",
-                        "question": "Who most likely are the listeners?",
-                        "options": {
-                            "A": "Civil engineers",
-                            "B": "Urban planners",
-                            "C": "News reporters",
-                            "D": "Safety inspectors"
-                        },
-                        "answer": "C"
-                    },
-                    {
-                        "id": "99",
-                        "question": "Look at the graphic. Which of the following companies will be affected by a delay?",
-                        "options": {
-                            "A": "Selca Air",
-                            "B": "Trilco Airlines",
-                            "C": "Heathson Airways",
-                            "D": "Bluxtin Airlines"
-                        },
-                        "answer": "A"
-                    }
-                ],
-                "passage": "[Listen to the audio to answer the following questions.]"
-            },
-            {
-                "header": "Questions 100-100",
-                "questions": [
-                    {
-                        "id": "100",
-                        "question": "What does the speaker invite the listeners to do?",
-                        "options": {
-                            "A": "Download some designs",
-                            "B": "Look at a model",
-                            "C": "Take a site tour",
-                            "D": "View a webcam"
-                        },
-                        "answer": "B"
-                    }
-                ],
-                "passage": "[Listen to the audio to answer the following questions.]"
-            }
-        ],
-        "De 3": [
-            {
                 "header": "Questions 71-73",
                 "questions": [
                     {
                         "id": "71",
-                        "question": "What is the speaker announcing?",
+                        "question": "Who most likely is the speaker?",
                         "options": {
-                            "A": "A change in a schedule",
-                            "B": "A store's new location",
-                            "C": "A guest's upcoming visit",
-                            "D": "An increase in prices"
+                            "A": "An art gallery owner",
+                            "B": "A hairstylist",
+                            "C": "A clothing designer",
+                            "D": "A jewelry maker"
+                        },
+                        "answer": "D"
+                    },
+                    {
+                        "id": "72",
+                        "question": "Why did the speaker include a special gift?",
+                        "options": {
+                            "A": "Because the listener is a new customer",
+                            "B": "Because the listener is celebrating a special occasion",
+                            "C": "Because the listener is a loyal customer",
+                            "D": "Because the listener placed a large order"
                         },
                         "answer": "C"
                     },
                     {
-                        "id": "72",
-                        "question": "According to the speaker, what will happen next month?",
+                        "id": "73",
+                        "question": "Why is the listener asked to return a phone call?",
                         "options": {
-                            "A": "A local festival will take place.",
-                            "B": "A construction project will end.",
-                            "C": "Some employees will be promoted.",
-                            "D": "A new product will be released."
+                            "A": "To give feedback",
+                            "B": "To confirm receipt of an order",
+                            "C": "To update a payment method",
+                            "D": "To provide an address"
                         },
                         "answer": "A"
-                    },
-                    {
-                        "id": "73",
-                        "question": "What are the listeners asked to do?",
-                        "options": {
-                            "A": "Register for a workshop",
-                            "B": "Create some advertisements",
-                            "C": "Update their contact information",
-                            "D": "Hand in some designs"
-                        },
-                        "answer": "D"
                     }
                 ],
                 "passage": "[Listen to the audio to answer the following questions.]"
@@ -2219,36 +1966,36 @@ const toeicData = {
                 "questions": [
                     {
                         "id": "74",
-                        "question": "What kind of business is being advertised?",
+                        "question": "Where is the talk taking place?",
                         "options": {
-                            "A": "A fitness center",
-                            "B": "A landscaping company",
-                            "C": "A hardware store",
-                            "D": "A real estate agency"
+                            "A": "At a talent agency",
+                            "B": "At a history museum",
+                            "C": "At a flight school",
+                            "D": "At a movie theater"
                         },
-                        "answer": "B"
+                        "answer": "C"
                     },
                     {
                         "id": "75",
-                        "question": "According to the advertisement, why should listeners choose this business?",
+                        "question": "What does the speaker emphasize about a business?",
                         "options": {
-                            "A": "It is a new company.",
-                            "B": "It is open twenty-four hours a day.",
-                            "C": "It uses environmentally friendly products.",
-                            "D": "It has the lowest prices in the area."
+                            "A": "It has a long history",
+                            "B": "It is easy to find",
+                            "C": "It is reasonably priced",
+                            "D": "It has extended hours"
                         },
-                        "answer": "C"
+                        "answer": "A"
                     },
                     {
                         "id": "76",
-                        "question": "What does the speaker offer?",
+                        "question": "What will the listeners do next?",
                         "options": {
-                            "A": "A free consultation",
-                            "B": "A gift with a purchase",
-                            "C": "A discounted service",
-                            "D": "A money-back guarantee"
+                            "A": "Get on an airplane",
+                            "B": "Have some refreshments",
+                            "C": "Purchase a ticket",
+                            "D": "Watch a film"
                         },
-                        "answer": "C"
+                        "answer": "D"
                     }
                 ],
                 "passage": "[Listen to the audio to answer the following questions.]"
@@ -2258,36 +2005,36 @@ const toeicData = {
                 "questions": [
                     {
                         "id": "77",
-                        "question": "Where most likely are the listeners?",
+                        "question": "Who are the listeners?",
                         "options": {
-                            "A": "At a botanical garden",
-                            "B": "At a library",
-                            "C": "At a history museum",
-                            "D": "At an art gallery"
-                        },
-                        "answer": "C"
-                    },
-                    {
-                        "id": "78",
-                        "question": "What does the speaker imply when she says, \"the cafeteria is currently being renovated\"?",
-                        "options": {
-                            "A": "Some staff members are not available.",
-                            "B": "A different location should be used for lunch.",
-                            "C": "A tour will take longer than expected.",
-                            "D": "The building will be closed next week."
+                            "A": "Hotel receptionists",
+                            "B": "Health-care staff",
+                            "C": "Customer-service representatives",
+                            "D": "Fitness trainers"
                         },
                         "answer": "B"
                     },
                     {
-                        "id": "79",
-                        "question": "What will the listeners most likely do next?",
+                        "id": "78",
+                        "question": "What has the speaker prepared?",
                         "options": {
-                            "A": "Buy some souvenirs",
-                            "B": "Listen to a lecture",
-                            "C": "Watch a short film",
-                            "D": "Meet a famous artist"
+                            "A": "Activities",
+                            "B": "Food",
+                            "C": "Certificates",
+                            "D": "A video"
                         },
-                        "answer": "C"
+                        "answer": "A"
+                    },
+                    {
+                        "id": "79",
+                        "question": "What does the speaker imply when he says, “I must leave at noon”?",
+                        "options": {
+                            "A": "He would like permission to leave",
+                            "B": "He cannot join a luncheon",
+                            "C": "A colleague will fill in for him",
+                            "D": "Some material will not be covered today"
+                        },
+                        "answer": "D"
                     }
                 ],
                 "passage": "[Listen to the audio to answer the following questions.]"
@@ -2297,36 +2044,36 @@ const toeicData = {
                 "questions": [
                     {
                         "id": "80",
-                        "question": "What is the purpose of the talk?",
+                        "question": "What is the report mainly about?",
                         "options": {
-                            "A": "To welcome some new employees",
-                            "B": "To describe a guest speaker's background",
-                            "C": "To introduce a new computer program",
-                            "D": "To announce the results of a survey"
+                            "A": "A local election",
+                            "B": "A city festival",
+                            "C": "A construction project",
+                            "D": "A sports competition"
                         },
-                        "answer": "C"
+                        "answer": "B"
                     },
                     {
                         "id": "81",
-                        "question": "According to the speaker, how will the change benefit the company?",
+                        "question": "According to the speaker, what can the listeners find on a Web site?",
                         "options": {
-                            "A": "It will attract more customers.",
-                            "B": "It will increase employee safety.",
-                            "C": "It will save the company money.",
-                            "D": "It will improve communication with clients."
+                            "A": "A schedule of events",
+                            "B": "An updated road map",
+                            "C": "Tourist attractions",
+                            "D": "Voting locations"
                         },
-                        "answer": "C"
+                        "answer": "A"
                     },
                     {
                         "id": "82",
-                        "question": "What will the listeners do this afternoon?",
+                        "question": "What does the speaker mean when she says, “there are several bus lines”?",
                         "options": {
-                            "A": "Meet in a different room",
-                            "B": "Submit some feedback",
-                            "C": "Participate in a training session",
-                            "D": "Install some software"
+                            "A": "She rides the bus to work everyday",
+                            "B": "The bus service is very confusing",
+                            "C": "The city buses have caused some traffic problems",
+                            "D": "People should take the bus to an event"
                         },
-                        "answer": "C"
+                        "answer": "D"
                     }
                 ],
                 "passage": "[Listen to the audio to answer the following questions.]"
@@ -2336,36 +2083,36 @@ const toeicData = {
                 "questions": [
                     {
                         "id": "83",
-                        "question": "Where is the speaker?",
+                        "question": "What is the broadcast about?",
                         "options": {
-                            "A": "At an airport",
-                            "B": "At a clothing store",
-                            "C": "At a restaurant",
-                            "D": "At a post office"
+                            "A": "Financing your company",
+                            "B": "Using social media",
+                            "C": "Recruiting staff",
+                            "D": "Getting a business license"
                         },
                         "answer": "B"
                     },
                     {
                         "id": "84",
-                        "question": "Why does the speaker apologize?",
+                        "question": "What will the speaker help the listeners with today?",
                         "options": {
-                            "A": "An item is out of stock.",
-                            "B": "A machine is broken.",
-                            "C": "A line is very long.",
-                            "D": "A mistake was made on an order."
+                            "A": "Choosing a service",
+                            "B": "Lowering costs",
+                            "C": "Analyzing feedback",
+                            "D": "Setting goals"
                         },
                         "answer": "D"
                     },
                     {
                         "id": "85",
-                        "question": "What does the speaker say she will do?",
+                        "question": "What will most likely happen next?",
                         "options": {
-                            "A": "Call a manager",
-                            "B": "Process a refund",
-                            "C": "Contact a shipping company",
-                            "D": "Print a new receipt"
+                            "A": "The speaker will conduct an interview",
+                            "B": "The speaker will give a weather update",
+                            "C": "An advertisement will play",
+                            "D": "A contest winner will be announce"
                         },
-                        "answer": "C"
+                        "answer": "A"
                     }
                 ],
                 "passage": "[Listen to the audio to answer the following questions.]"
@@ -2375,34 +2122,34 @@ const toeicData = {
                 "questions": [
                     {
                         "id": "86",
-                        "question": "What is the topic of the radio broadcast?",
+                        "question": "Who is the telephone message for?",
                         "options": {
-                            "A": "A community event",
-                            "B": "A business opening",
-                            "C": "A weather report",
-                            "D": "A political debate"
+                            "A": "A dietician",
+                            "B": "A caterer",
+                            "C": "A truck driver",
+                            "D": "A store owner"
                         },
-                        "answer": "A"
+                        "answer": "D"
                     },
                     {
                         "id": "87",
-                        "question": "Who is the speaker most likely talking to?",
+                        "question": "What does the speaker mean when she says, “do you carry local fruit”?",
                         "options": {
-                            "A": "City officials",
-                            "B": "Local entrepreneurs",
-                            "C": "Radio listeners",
-                            "D": "Professional athletes"
+                            "A": "She cannot find the products she is looking for",
+                            "B": "She wants the listener to give her some advice",
+                            "C": "She wants the listener to sell her products",
+                            "D": "She is worried about a shipment"
                         },
                         "answer": "C"
                     },
                     {
                         "id": "88",
-                        "question": "What does the speaker suggest that the listeners do?",
+                        "question": "What does the speaker say she can do tomorrow?",
                         "options": {
-                            "A": "Purchase tickets in advance",
-                            "B": "Check a Web site",
-                            "C": "Visit a new park",
-                            "D": "Volunteer for an event"
+                            "A": "Make a phone call",
+                            "B": "Provide samples",
+                            "C": "Send an invoice",
+                            "D": "Visit a clinic"
                         },
                         "answer": "B"
                     }
@@ -2414,34 +2161,426 @@ const toeicData = {
                 "questions": [
                     {
                         "id": "89",
-                        "question": "What is the main purpose of the talk?",
+                        "question": "What type of product is being advertised?",
                         "options": {
-                            "A": "To introduce a new coworker",
-                            "B": "To discuss a project's progress",
-                            "C": "To explain a new company policy",
-                            "D": "To announce an award winner"
+                            "A": "A floor lamp",
+                            "B": "A bookshelf",
+                            "C": "An office chair",
+                            "D": "A desk organizer"
+                        },
+                        "answer": "D"
+                    },
+                    {
+                        "id": "90",
+                        "question": "What special feature does the speaker emphasize?",
+                        "options": {
+                            "A": "It is durable",
+                            "B": "It is adjustable",
+                            "C": "It is easy to assemble",
+                            "D": "It is available in many colors"
+                        },
+                        "answer": "A"
+                    },
+                    {
+                        "id": "91",
+                        "question": "How can the listeners receive a discount?",
+                        "options": {
+                            "A": "By calling within a time limit",
+                            "B": "By entering an email address",
+                            "C": "By referring a product to a friend",
+                            "D": "By using a mobile phone application"
+                        },
+                        "answer": "B"
+                    }
+                ],
+                "passage": "[Listen to the audio to answer the following questions.]"
+            },
+            {
+                "header": "Questions 92-94",
+                "questions": [
+                    {
+                        "id": "92",
+                        "question": "What type of work do the listeners most likely do?",
+                        "options": {
+                            "A": "Architectural planning",
+                            "B": "Software design",
+                            "C": "Therapy",
+                            "D": "Sales"
+                        },
+                        "answer": "D"
+                    },
+                    {
+                        "id": "93",
+                        "question": "What does the speaker thank the listeners for?",
+                        "options": {
+                            "A": "Finalizing a business contract",
+                            "B": "Preparing a presentation",
+                            "C": "Sharing some ideas",
+                            "D": "Meeting with some clients"
+                        },
+                        "answer": "C"
+                    },
+                    {
+                        "id": "94",
+                        "question": "Why does the speaker say, “we have a limited number of computers available”?",
+                        "options": {
+                            "A": "To warn the listeners about a maintenance issue",
+                            "B": "To encourage the listeners to sign up quickly",
+                            "C": "To suggest that the listeners buy a device",
+                            "D": "To remind the listeners about budget cut"
+                        },
+                        "answer": "B"
+                    }
+                ],
+                "passage": "[Listen to the audio to answer the following questions.]"
+            },
+            {
+                "header": "Questions 95-97",
+                "questions": [
+                    {
+                        "id": "95",
+                        "question": "Why does the speaker apologize?",
+                        "options": {
+                            "A": "There is construction noise at the station",
+                            "B": "There are no more seats available on a train",
+                            "C": "A printed schedule has incorrect information",
+                            "D": "A train service has been delayed"
+                        },
+                        "answer": "A"
+                    },
+                    {
+                        "id": "96",
+                        "question": "According to the speaker, why way some listeners need to see an agent?",
+                        "options": {
+                            "A": "To ask for a refund",
+                            "B": "To request baggage service",
+                            "C": "To purchase a monthly pass",
+                            "D": "To arrange a transfer"
+                        },
+                        "answer": "B"
+                    },
+                    {
+                        "id": "97",
+                        "question": "Look at the graphic. When is Train 133 scheduled to arrive at its next stop?",
+                        "options": {
+                            "A": "At 10:45 A.M",
+                            "B": "At 12:05 P.M",
+                            "C": "At 1:00 P.M",
+                            "D": "At 1:30 P.M"
+                        },
+                        "answer": "B"
+                    }
+                ],
+                "passage": "[Listen to the audio to answer the following questions.]"
+            },
+            {
+                "header": "Questions 98-100",
+                "questions": [
+                    {
+                        "id": "98",
+                        "question": "What does the speaker remind the listeners to do?",
+                        "options": {
+                            "A": "Pay a registration fee",
+                            "B": "Pick up conference materials",
+                            "C": "Visit a vendor’s booth",
+                            "D": "Make a lunch selection"
+                        },
+                        "answer": "B"
+                    },
+                    {
+                        "id": "99",
+                        "question": "Look at the graphic. Which presentation has been canceled?",
+                        "options": {
+                            "A": "Dealing with Extreme Weather",
+                            "B": "How to Create a Vertical Garden",
+                            "C": "New Method of Pest Control",
+                            "D": "Urban Landscapes"
+                        },
+                        "answer": "C"
+                    },
+                    {
+                        "id": "100",
+                        "question": "Who is Rajesh Patel?",
+                        "options": {
+                            "A": "A conference organizer",
+                            "B": "A corporate sponsor",
+                            "C": "A local caterer",
+                            "D": "A building inspector"
+                        },
+                        "answer": "A"
+                    }
+                ],
+                "passage": "[Listen to the audio to answer the following questions.]"
+            }
+        ],
+        "De 3": [
+            {
+                "header": "Questions 71-73",
+                "questions": [
+                    {
+                        "id": "71",
+                        "question": "What industry does the speaker most likely work in?",
+                        "options": {
+                            "A": "Information Technology",
+                            "B": "Shipping and Receiving",
+                            "C": "Advertising",
+                            "D": "Manufacturing"
+                        },
+                        "answer": "C"
+                    },
+                    {
+                        "id": "72",
+                        "question": "What is the speaker mainly talking about?",
+                        "options": {
+                            "A": "A budget proposal",
+                            "B": "Product designs",
+                            "C": "A project delay",
+                            "D": "Sample photos"
+                        },
+                        "answer": "C"
+                    },
+                    {
+                        "id": "73",
+                        "question": "What are the listeners asked to do?",
+                        "options": {
+                            "A": "Review a schedule",
+                            "B": "Work overtime",
+                            "C": "Suggest some ideas",
+                            "D": "Prepare a presentation"
+                        },
+                        "answer": "A"
+                    }
+                ],
+                "passage": "[Listen to the audio to answer the following questions.]"
+            },
+            {
+                "header": "Questions 74-76",
+                "questions": [
+                    {
+                        "id": "74",
+                        "question": "What is scheduled for April 16?",
+                        "options": {
+                            "A": "An awards banquet",
+                            "B": "A software demonstration",
+                            "C": "A company celebration",
+                            "D": "A national holiday"
+                        },
+                        "answer": "C"
+                    },
+                    {
+                        "id": "75",
+                        "question": "What does the speaker thank Sung-Hee for doing?",
+                        "options": {
+                            "A": "Presenting her research",
+                            "B": "Approving a budget",
+                            "C": "E-mailing an agenda",
+                            "D": "Reserving some space"
+                        },
+                        "answer": "D"
+                    },
+                    {
+                        "id": "76",
+                        "question": "Why does the speaker say, “Everyone has my e-mail address”?",
+                        "options": {
+                            "A": "To discourage the listeners from calling his phone",
+                            "B": "To complain that he receives too many e-mails",
+                            "C": "To explain how he learned about an opportunity",
+                            "D": "To encourage the listeners to make suggestions"
+                        },
+                        "answer": "D"
+                    }
+                ],
+                "passage": "[Listen to the audio to answer the following questions.]"
+            },
+            {
+                "header": "Questions 77-79",
+                "questions": [
+                    {
+                        "id": "77",
+                        "question": "Where do the listeners probably work?",
+                        "options": {
+                            "A": "At an accounting firm",
+                            "B": "At a software company",
+                            "C": "At a travel agency",
+                            "D": "At a shipping warehouse"
+                        },
+                        "answer": "D"
+                    },
+                    {
+                        "id": "78",
+                        "question": "What does the speaker imply when she says, “Now, there’s a box in the staff room”?",
+                        "options": {
+                            "A": "Some materials have been relocated",
+                            "B": "A shipment is urgent",
+                            "C": "A problem has been solved",
+                            "D": "A task was not completed"
+                        },
+                        "answer": "C"
+                    },
+                    {
+                        "id": "79",
+                        "question": "What will the speaker do on Friday?",
+                        "options": {
+                            "A": "Meet with clients",
+                            "B": "Make deliveries",
+                            "C": "Summarize feedback",
+                            "D": "Inspect facilities"
+                        },
+                        "answer": "C"
+                    }
+                ],
+                "passage": "[Listen to the audio to answer the following questions.]"
+            },
+            {
+                "header": "Questions 80-82",
+                "questions": [
+                    {
+                        "id": "80",
+                        "question": "What does the listener produce?",
+                        "options": {
+                            "A": "Furniture",
+                            "B": "Electronics",
+                            "C": "Food",
+                            "D": "Vehicles"
+                        },
+                        "answer": "C"
+                    },
+                    {
+                        "id": "81",
+                        "question": "What does the speaker say he will send the listener?",
+                        "options": {
+                            "A": "A contract",
+                            "B": "A delivery schedule",
+                            "C": "Some display ideas",
+                            "D": "Some coupons"
+                        },
+                        "answer": "A"
+                    },
+                    {
+                        "id": "82",
+                        "question": "What does the speaker recommend doing?",
+                        "options": {
+                            "A": "Lowering a price",
+                            "B": "Advertising in a newspaper",
+                            "C": "Developing new flavors",
+                            "D": "Sending plenty of inventory"
+                        },
+                        "answer": "D"
+                    }
+                ],
+                "passage": "[Listen to the audio to answer the following questions.]"
+            },
+            {
+                "header": "Questions 83-85",
+                "questions": [
+                    {
+                        "id": "83",
+                        "question": "What is the purpose of the plan?",
+                        "options": {
+                            "A": "To support local businesses",
+                            "B": "To promote tourism",
+                            "C": "To decrease traffic",
+                            "D": "To reduce government spending"
+                        },
+                        "answer": "C"
+                    },
+                    {
+                        "id": "84",
+                        "question": "Who does the speaker say will receive a discount?",
+                        "options": {
+                            "A": "Commuters",
+                            "B": "Senior citizens",
+                            "C": "Students",
+                            "D": "City officials"
+                        },
+                        "answer": "A"
+                    },
+                    {
+                        "id": "85",
+                        "question": "What will happen after three months?",
+                        "options": {
+                            "A": "A survey will be distributed",
+                            "B": "A new director will take over",
+                            "C": "A bus line will be added",
+                            "D": "A program evaluation will take place"
+                        },
+                        "answer": "D"
+                    }
+                ],
+                "passage": "[Listen to the audio to answer the following questions.]"
+            },
+            {
+                "header": "Questions 86-88",
+                "questions": [
+                    {
+                        "id": "86",
+                        "question": "Why does the speaker say, “Unfortunately, some of the microphones aren’t working”?",
+                        "options": {
+                            "A": "To suggest purchasing new equipment",
+                            "B": "To recommend changing a venue",
+                            "C": "To ask the listeners to remain silent",
+                            "D": "To apologize for a delay"
+                        },
+                        "answer": "D"
+                    },
+                    {
+                        "id": "87",
+                        "question": "What are the listeners invited to do?",
+                        "options": {
+                            "A": "Upgrade their tickets",
+                            "B": "Become volunteers",
+                            "C": "Participate in a contest",
+                            "D": "Ask the performers some questions"
+                        },
+                        "answer": "B"
+                    },
+                    {
+                        "id": "88",
+                        "question": "Where does the speaker say some information can be found?",
+                        "options": {
+                            "A": "On a posted sign",
+                            "B": "At the box office",
+                            "C": "In a program booklet",
+                            "D": "On a Website"
+                        },
+                        "answer": "C"
+                    }
+                ],
+                "passage": "[Listen to the audio to answer the following questions.]"
+            },
+            {
+                "header": "Questions 89-91",
+                "questions": [
+                    {
+                        "id": "89",
+                        "question": "Where does the speaker most likely work?",
+                        "options": {
+                            "A": "At a driving school",
+                            "B": "At an automobile dealership",
+                            "C": "At a manufacturing plant",
+                            "D": "At a delivery service"
                         },
                         "answer": "B"
                     },
                     {
                         "id": "90",
-                        "question": "What does the speaker imply when she says, \"I've been working with the catering company\"?",
+                        "question": "What did the survey gather information about?",
                         "options": {
-                            "A": "She is unhappy with the service.",
-                            "B": "She has already made some arrangements.",
-                            "C": "She wants to change a career path.",
-                            "D": "She is looking for a new vendor."
+                            "A": "Safety practices",
+                            "B": "Employee engagement",
+                            "C": "Interest in new merchandise",
+                            "D": "Customer satisfaction"
                         },
-                        "answer": "B"
+                        "answer": "D"
                     },
                     {
                         "id": "91",
-                        "question": "What are the listeners asked to do?",
+                        "question": "What incentive did the company provide for returning the survey?",
                         "options": {
-                            "A": "Review some documents",
-                            "B": "Sign a contract",
-                            "C": "Respond to an e-mail",
-                            "D": "Submit a budget"
+                            "A": "A promotional T-shirt",
+                            "B": "A product upgrade",
+                            "C": "A free car wash",
+                            "D": "A gift card"
                         },
                         "answer": "C"
                     }
@@ -2453,36 +2592,36 @@ const toeicData = {
                 "questions": [
                     {
                         "id": "92",
-                        "question": "Who most likely is the speaker?",
+                        "question": "Which department does the speaker work in?",
                         "options": {
-                            "A": "A flight attendant",
-                            "B": "A travel agent",
-                            "C": "A tour guide",
-                            "D": "A taxi driver"
+                            "A": "Product Development",
+                            "B": "Human Resources",
+                            "C": "Legal",
+                            "D": "Accounting"
+                        },
+                        "answer": "B"
+                    },
+                    {
+                        "id": "93",
+                        "question": "Why does the speaker say, “There is a need for a skilled software engineer”?",
+                        "options": {
+                            "A": "To recommend an employee sign up for more training",
+                            "B": "To indicate that a project deadline will be extended",
+                            "C": "To approve a request to transfer",
+                            "D": "To suggest consulting with an expert"
                         },
                         "answer": "C"
                     },
                     {
-                        "id": "93",
-                        "question": "Why is there a delay?",
+                        "id": "94",
+                        "question": "What does the speaker want to discuss with the listener?",
                         "options": {
-                            "A": "Some equipment is being repaired.",
-                            "B": "A road is closed.",
-                            "C": "The weather is bad.",
-                            "D": "There is a lot of traffic."
+                            "A": "Some sales results",
+                            "B": "Some client feedback",
+                            "C": "An office renovation",
+                            "D": "A work schedule"
                         },
                         "answer": "D"
-                    },
-                    {
-                        "id": "94",
-                        "question": "What does the speaker offer to do?",
-                        "options": {
-                            "A": "Change a reservation",
-                            "B": "Provide a refund",
-                            "C": "Give out some maps",
-                            "D": "Pay for a meal"
-                        },
-                        "answer": "A"
                     }
                 ],
                 "passage": "[Listen to the audio to answer the following questions.]"
@@ -2492,36 +2631,36 @@ const toeicData = {
                 "questions": [
                     {
                         "id": "95",
-                        "question": "Why is the speaker calling?",
+                        "question": "Who most likely is the speaker?",
                         "options": {
-                            "A": "To request a price estimate",
-                            "B": "To clarify some information",
-                            "C": "To reschedule an appointment",
-                            "D": "To complain about a service"
+                            "A": "An architect",
+                            "B": "A store supervisor",
+                            "C": "An event organizer",
+                            "D": "An electrician"
+                        },
+                        "answer": "C"
+                    },
+                    {
+                        "id": "96",
+                        "question": "What does the speaker say about mobile phones?",
+                        "options": {
+                            "A": "They have been discounted recently",
+                            "B": "They will be centrally located",
+                            "C": "They can be updated quickly",
+                            "D": "They must be turned off now"
                         },
                         "answer": "B"
                     },
                     {
-                        "id": "96",
-                        "question": "Look at the graphic. Which door will the person most likely use?",
-                        "options": {
-                            "A": "Door 1",
-                            "B": "Door 2",
-                            "C": "Door 3",
-                            "D": "Door 4"
-                        },
-                        "answer": "C"
-                    },
-                    {
                         "id": "97",
-                        "question": "What does the speaker say she will do next?",
+                        "question": "Look at the graphic. Which area was added?",
                         "options": {
-                            "A": "Send a text message",
-                            "B": "Print out a map",
-                            "C": "Make a phone call",
-                            "D": "Check a schedule"
+                            "A": "Area 1",
+                            "B": "Area 2",
+                            "C": "Area 3",
+                            "D": "Area 4"
                         },
-                        "answer": "C"
+                        "answer": "A"
                     }
                 ],
                 "passage": "[Listen to the audio to answer the following questions.]"
@@ -2531,36 +2670,36 @@ const toeicData = {
                 "questions": [
                     {
                         "id": "98",
-                        "question": "What is the purpose of the talk?",
+                        "question": "What will begin at 10 A.M on Saturday?",
                         "options": {
-                            "A": "To announce a store's grand opening",
-                            "B": "To explain how to use a product",
-                            "C": "To provide information about a new program",
-                            "D": "To introduce a new staff member"
+                            "A": "A holiday parade",
+                            "B": "A bicycle race",
+                            "C": "A new bus route",
+                            "D": "Some road construction"
                         },
-                        "answer": "C"
+                        "answer": "A"
                     },
                     {
                         "id": "99",
-                        "question": "Look at the graphic. What is the reward for the \"Silver\" level?",
+                        "question": "Look at the graphic. Which road will be excluded?",
                         "options": {
-                            "A": "10% discount",
-                            "B": "Free shipping",
-                            "C": "A free gift",
-                            "D": "Early access to sales"
+                            "A": "Oak Street",
+                            "B": "Lake Drive",
+                            "C": "Curtis Avenue",
+                            "D": "Broad Street"
                         },
-                        "answer": "C"
+                        "answer": "D"
                     },
                     {
                         "id": "100",
-                        "question": "What does the speaker encourage the listeners to do?",
+                        "question": "What will the listeners hear after a commercial break?",
                         "options": {
-                            "A": "Sign up today",
-                            "B": "Visit a Web site",
-                            "C": "Tell their friends",
-                            "D": "Download an app"
+                            "A": "A financial report",
+                            "B": "A weather forecast",
+                            "C": "An interview with a government official",
+                            "D": "A live musical performance"
                         },
-                        "answer": "C"
+                        "answer": "B"
                     }
                 ],
                 "passage": "[Listen to the audio to answer the following questions.]"
@@ -3973,183 +4112,168 @@ const toeicData = {
         "De 3": [
             {
                 "header": "Questions 131-134 refer to the following e-mail.",
-                "passage": "To: All Staff\n\nFrom: Yoreli Costa\n\nDate: February 15\n\nSubject: Florence Shawn\n\nHi Everyone,\n\nI have news to share about a ___131___ in the human resources department. After nearly twenty years with Cometti Creative, Florence Shawn has decided to retire from the position of director of human resources.\n\nOur current senior manager of human resources, Makoto Ichise, will replace Ms. Shawn when she retires. Ms. Shawn ___132___ Mr. Ichise since he joined the company five years ago.\n\nMs. Shawn's ___133___ day will be February 22. A retirement party will be held for her on that day at 4:00 P.M. in the Terey Lobby. ___134___.\n\nBest,\n\nYoreli Costa\n\nDirector of Operations, Cometti Creative",
+                "passage": "To: All Staff\nFrom: Yoreli Costa\nDate: February 15\nSubject: Florence Shawn\n\nHi Everyone,\n\nI have news to share about a ___131___ in the human resources department. After nearly twenty years with Cometti Creative, Florence Shawn has decided to retire from the position of director of human resources.\n\nOur current senior manager of human resources, Makoto Ichise, will replace Ms. Shawn when she retires. Ms. Shawn ___132___ Mr. Ichise since he joined the company five years ago.\n\nMs. Shawn's ___133___ day will be February 22. A retirement party will be held for her on that day at 4:00 P.M. in the Terey Lobby. ___134___.\n\nBest,\n\nYoreli Costa\nDirector of Operations, Cometti Creative",
                 "questions": [
                     {
                         "id": "131",
-                        "question": "Choose the best answer.",
                         "options": {
                             "A": "difference",
                             "B": "strategy",
                             "C": "change",
                             "D": "practice"
                         },
-                        "answer": "B"
+                        "answer": "C"
                     },
                     {
                         "id": "132",
-                        "question": "Choose the best answer.",
                         "options": {
                             "A": "mentors",
                             "B": "is mentoring",
                             "C": "will mentor",
                             "D": "has been mentoring"
                         },
-                        "answer": "A"
+                        "answer": "D"
                     },
                     {
                         "id": "133",
-                        "question": "Choose the best answer.",
                         "options": {
                             "A": "last",
                             "B": "original",
                             "C": "flexible",
                             "D": "alternate"
                         },
-                        "answer": "C"
+                        "answer": "A"
                     },
                     {
                         "id": "134",
-                        "question": "Choose the best answer.",
                         "options": {
                             "A": "Cometti Creative will hire a replacement soon.",
                             "B": "We hope that you can all attend to wish her well.",
                             "C": "Ms. Shawn was the first director of human resources at Cometti Creative.",
                             "D": "The first project will be the creation of a talent development program."
                         },
-                        "answer": "D"
+                        "answer": "B"
                     }
                 ]
             },
             {
                 "header": "Questions 135-138 refer to the following e-mail.",
-                "passage": "To: All Sales Associates\n\nFrom: Dean Verdoorn\n\nDate: June 27\n\nSubject: Store improvement\n\nIt is very important to us at V and J Camping Supplies that we work together as a unit. Teamwork not only improves productivity but also leads to increased satisfaction for customers and employees. ___135___, we will be combining a team-building exercise with an in-store improvement plan that we believe will make employees, management, and customers happy.\n\nWe will be redesigning the walls in our stores to look like trees with hollow spaces ___136___ products can be displayed. These outdoor-themed shelves are actually easy-to-assemble modular wall units. Associates ___137___ the task to work cooperatively in teams to assemble them. ___138___. When it is completed, we will stock the shelves and have a fun grand reopening event for customers.\n\nMore information will be forthcoming.\n\nDean Verdoorn\n\nBuildings Director",
+                "passage": "To: All Sales Associates\nFrom: Dean Verdoorn\nDate: June 27\nSubject: Store improvement\n\nIt is very important to us at V and J Camping Supplies that we work together as a unit. Teamwork not only improves productivity but also leads to increased satisfaction for customers and employees. ___135___, we will be combining a team-building exercise with an in-store improvement plan that we believe will make employees, management, and customers happy.\n\nWe will be redesigning the walls in our stores to look like trees with hollow spaces ___136___ products can be displayed. These outdoor-themed shelves are actually easy-to-assemble modular wall units. Associates ___137___ the task to work cooperatively in teams to assemble them. ___138___. When it is completed, we will stock the shelves and have a fun grand reopening event for customers.\n\nMore information will be forthcoming.\n\nDean Verdoorn\nBuildings Director",
                 "questions": [
                     {
                         "id": "135",
-                        "question": "Choose the best answer.",
                         "options": {
                             "A": "For that reason",
                             "B": "For instance",
                             "C": "Unfortunately",
                             "D": "On the other hand"
                         },
-                        "answer": "C"
+                        "answer": "A"
                     },
                     {
                         "id": "136",
-                        "question": "Choose the best answer.",
                         "options": {
                             "A": "for",
                             "B": "that",
                             "C": "whatever",
                             "D": "where"
                         },
-                        "answer": "A"
+                        "answer": "D"
                     },
                     {
                         "id": "137",
-                        "question": "Choose the best answer.",
                         "options": {
                             "A": "are giving",
                             "B": "were given",
                             "C": "have to give",
                             "D": "will be given"
                         },
-                        "answer": "C"
+                        "answer": "D"
                     },
                     {
                         "id": "138",
-                        "question": "Choose the best answer.",
                         "options": {
                             "A": "Customers have been informed.",
                             "B": "This project should take one day.",
                             "C": "An announcement will be made soon.",
                             "D": "These units are available in several colors."
                         },
-                        "answer": "C"
+                        "answer": "B"
                     }
                 ]
             },
             {
                 "header": "Questions 139-142 refer to the following Web page.",
-                "passage": "Protection & Conservation\n\nThe Garner Museum of Art (GMA) ensures the preservation of its collection by carefully ___139___ the lighting of its galleries. Certain artifacts—many of which are thousands of years old—are particularly sensitive to light. ___140___, the museum does not showcase any of its pieces in areas with windows. Nor does it keep artwork in areas with certain kinds of ___141___, potentially harmful bulbs. ___142___. By taking such measures, the GMA hopes that its collection will be enjoyed for generations to come.",
+                "passage": "**Protection & Conservation**\n\nThe Garner Museum of Art (GMA) ensures the preservation of its collection by carefully ___139___ the lighting of its galleries. Certain artifacts—many of which are thousands of years old—are particularly sensitive to light. ___140___, the museum does not showcase any of its pieces in areas with windows. Nor does it keep artwork in areas with certain kinds of ___141___, potentially harmful bulbs. ___142___. By taking such measures, the GMA hopes that its collection will be enjoyed for generations to come.",
                 "questions": [
                     {
                         "id": "139",
-                        "question": "Choose the best answer.",
                         "options": {
                             "A": "monitoring",
                             "B": "acquiring",
                             "C": "performing",
                             "D": "guarding"
                         },
-                        "answer": "B"
+                        "answer": "A"
                     },
                     {
                         "id": "140",
-                        "question": "Choose the best answer.",
                         "options": {
                             "A": "After all",
                             "B": "For instance",
                             "C": "On the contrary",
                             "D": "For this reason"
                         },
-                        "answer": "C"
+                        "answer": "D"
                     },
                     {
                         "id": "141",
-                        "question": "Choose the best answer.",
                         "options": {
                             "A": "bright",
                             "B": "brightly",
                             "C": "brighten",
                             "D": "brightness"
                         },
-                        "answer": "B"
+                        "answer": "A"
                     },
                     {
                         "id": "142",
-                        "question": "Choose the best answer.",
                         "options": {
                             "A": "Therefore, the museum will place some of its older pieces on loan.",
                             "B": "Also, flash photography is not permitted.",
                             "C": "Only a few staff members possess these specialized skills.",
                             "D": "Unfortunately, it can be difficult to determine an object's age."
                         },
-                        "answer": "D"
+                        "answer": "B"
                     }
                 ]
             },
             {
                 "header": "Questions 143-146 refer to the following e-mail.",
-                "passage": "To: Dana Paulwell\n\nFrom: Silas Laveau\n\nDate: August 22\n\nSubject: My input\n\nAttachment: Article\n\nDear Dr. Paulwell,\n\nThis message is in response to yesterday's staff meeting, particularly the discussion on how certain aspects of the clinic may affect our work and mission. ___143___.\n\nCurrently, the vending machines in the hall outside our waiting room are stocked with sugary and salty products such as soft drinks and chips. As a health care provider, we ___144___ beverages and snacks that show our commitment to wellness. ___145___, our mission is focused on good health.\n\nI have attached an article about actions that medical centers like ours are taking to improve their hospitality stations. I hope you find it ___146___. It details some easy and cost-effective changes we could consider.\n\nKind regards,\n\nSilas Laveau",
+                "passage": "To: Dana Paulwell\nFrom: Silas Laveau\nDate: August 22\nSubject: My input\nAttachment: Article\n\nDear Dr. Paulwell,\n\nThis message is in response to yesterday's staff meeting, particularly the discussion on how certain aspects of the clinic may affect our work and mission. ___143___.\n\nCurrently, the vending machines in the hall outside our waiting room are stocked with sugary and salty products such as soft drinks and chips. As a health care provider, we ___144___ beverages and snacks that show our commitment to wellness. ___145___, our mission is focused on good health.\n\nI have attached an article about actions that medical centers like ours are taking to improve their hospitality stations. I hope you find it ___146___. It details some easy and cost-effective changes we could consider.\n\nKind regards,\nSilas Laveau",
                 "questions": [
                     {
                         "id": "143",
-                        "question": "Choose the best answer.",
                         "options": {
                             "A": "I thought it went on longer than was necessary.",
                             "B": "I wish we had been informed about it sooner.",
                             "C": "I would like to make a suggestion on this topic.",
                             "D": "I would be honored to lead a follow-up session."
                         },
-                        "answer": "B"
+                        "answer": "C"
                     },
                     {
                         "id": "144",
-                        "question": "Choose the best answer.",
                         "options": {
                             "A": "will offer",
                             "B": "have offered",
                             "C": "were offering",
                             "D": "should be offering"
                         },
-                        "answer": "C"
+                        "answer": "D"
                     },
                     {
                         "id": "145",
-                        "question": "Choose the best answer.",
                         "options": {
                             "A": "After all",
                             "B": "By the way",
@@ -4160,14 +4284,13 @@ const toeicData = {
                     },
                     {
                         "id": "146",
-                        "question": "Choose the best answer.",
                         "options": {
                             "A": "useful",
                             "B": "eventful",
                             "C": "profitable",
                             "D": "comfortable"
                         },
-                        "answer": "C"
+                        "answer": "A"
                     }
                 ]
             }
@@ -4188,7 +4311,7 @@ const toeicData = {
                             "C": "To announce a new menu",
                             "D": "To report a Web site upgrade"
                         },
-                        "answer": null
+                        "answer": "B"
                     },
                     {
                         "id": "148",
@@ -4199,7 +4322,7 @@ const toeicData = {
                             "C": "A free delivery",
                             "D": "A magazine subscription"
                         },
-                        "answer": null
+                        "answer": "C"
                     }
                 ]
             },
@@ -4216,7 +4339,7 @@ const toeicData = {
                             "C": "The amount of sugar to add",
                             "D": "How long to let a pouch steep in a glass"
                         },
-                        "answer": null
+                        "answer": "B"
                     },
                     {
                         "id": "150",
@@ -4227,7 +4350,7 @@ const toeicData = {
                             "C": "It is sold outside of Turkey.",
                             "D": "It comes in boxes containing 250 tea pouches each."
                         },
-                        "answer": null
+                        "answer": "C"
                     }
                 ]
             },
@@ -4244,7 +4367,7 @@ const toeicData = {
                             "C": "Cozilete Slippers' shipping department",
                             "D": "Cozilete Slippers' most loyal customers"
                         },
-                        "answer": null
+                        "answer": "B"
                     },
                     {
                         "id": "152",
@@ -4255,7 +4378,7 @@ const toeicData = {
                             "C": "Each post was viewed by an average of about 87,000 individuals.",
                             "D": "Few individuals viewed a post more than one time."
                         },
-                        "answer": null
+                        "answer": "C"
                     }
                 ]
             },
@@ -4272,7 +4395,7 @@ const toeicData = {
                             "C": "How to safely package the jewelry",
                             "D": "Where the business cards are stored"
                         },
-                        "answer": null
+                        "answer": "A"
                     },
                     {
                         "id": "154",
@@ -4283,7 +4406,7 @@ const toeicData = {
                             "C": "Ms. Mohan should not order more labels.",
                             "D": "Ms. Mohan should not go to the post office."
                         },
-                        "answer": null
+                        "answer": "C"
                     }
                 ]
             },
@@ -4300,7 +4423,7 @@ const toeicData = {
                             "C": "An amusement park",
                             "D": "A housing complex"
                         },
-                        "answer": null
+                        "answer": "D"
                     },
                     {
                         "id": "156",
@@ -4311,7 +4434,7 @@ const toeicData = {
                             "C": "To plan the repair of a broken water pipe",
                             "D": "To set the fees people will pay"
                         },
-                        "answer": null
+                        "answer": "A"
                     },
                     {
                         "id": "157",
@@ -4322,7 +4445,7 @@ const toeicData = {
                             "C": "Mr. Underwood",
                             "D": "Ms. Davis"
                         },
-                        "answer": null
+                        "answer": "B"
                     }
                 ]
             },
@@ -4339,7 +4462,7 @@ const toeicData = {
                             "C": "2:30 P.M.",
                             "D": "3:00 P.M."
                         },
-                        "answer": null
+                        "answer": "C"
                     },
                     {
                         "id": "159",
@@ -4350,7 +4473,7 @@ const toeicData = {
                             "C": "Advertising",
                             "D": "Executive management"
                         },
-                        "answer": null
+                        "answer": "B"
                     },
                     {
                         "id": "160",
@@ -4361,7 +4484,7 @@ const toeicData = {
                             "C": "To provide information about a budget",
                             "D": "To review recently approved documents"
                         },
-                        "answer": null
+                        "answer": "C"
                     },
                     {
                         "id": "161",
@@ -4372,7 +4495,7 @@ const toeicData = {
                             "C": "She is pleased with the proposed budget.",
                             "D": "She is happy that a project has been completed."
                         },
-                        "answer": null
+                        "answer": "A"
                     }
                 ]
             },
@@ -4389,7 +4512,7 @@ const toeicData = {
                             "C": "At an accounting office",
                             "D": "At a print shop"
                         },
-                        "answer": null
+                        "answer": "D"
                     },
                     {
                         "id": "163",
@@ -4400,7 +4523,7 @@ const toeicData = {
                             "C": "He appreciates how quickly Ms. Kitzos responded.",
                             "D": "He is glad that he does not need to come in early in the morning."
                         },
-                        "answer": null
+                        "answer": "B"
                     }
                 ]
             },
@@ -4417,7 +4540,7 @@ const toeicData = {
                             "C": "Relocate its headquarters",
                             "D": "Open a new business division"
                         },
-                        "answer": null
+                        "answer": "D"
                     },
                     {
                         "id": "165",
@@ -4428,7 +4551,7 @@ const toeicData = {
                             "C": "It has recently hired more than 100 new workers.",
                             "D": "It already has a major presence in the state."
                         },
-                        "answer": null
+                        "answer": "D"
                     },
                     {
                         "id": "166",
@@ -4439,7 +4562,7 @@ const toeicData = {
                             "C": "Through public documents and construction permits",
                             "D": "By attending a press conference in Roseville"
                         },
-                        "answer": null
+                        "answer": "B"
                     },
                     {
                         "id": "167",
@@ -4450,7 +4573,7 @@ const toeicData = {
                             "C": "Houkcomm will negotiate new supply contracts.",
                             "D": "Manufacturing jobs will increase in Roseville."
                         },
-                        "answer": null
+                        "answer": "A"
                     }
                 ]
             },
@@ -4467,7 +4590,7 @@ const toeicData = {
                             "C": "He asked Ms. Galloway to return a call he had made the day before.",
                             "D": "He and Ms. Galloway met earlier in the day."
                         },
-                        "answer": null
+                        "answer": "B"
                     },
                     {
                         "id": "169",
@@ -4478,7 +4601,7 @@ const toeicData = {
                             "C": "Their durability",
                             "D": "Their warmth"
                         },
-                        "answer": null
+                        "answer": "A"
                     },
                     {
                         "id": "170",
@@ -4489,7 +4612,7 @@ const toeicData = {
                             "C": "success",
                             "D": "request"
                         },
-                        "answer": null
+                        "answer": "C"
                     },
                     {
                         "id": "171",
@@ -4500,7 +4623,7 @@ const toeicData = {
                             "C": "Charge customers $65 for each pair of boots",
                             "D": "Sell him insulation material to be used in the boots"
                         },
-                        "answer": null
+                        "answer": "B"
                     }
                 ]
             },
@@ -4517,7 +4640,7 @@ const toeicData = {
                             "C": "Billing",
                             "D": "Research"
                         },
-                        "answer": null
+                        "answer": "B"
                     },
                     {
                         "id": "173",
@@ -4528,7 +4651,7 @@ const toeicData = {
                             "C": "The Greller project",
                             "D": "The Allford project"
                         },
-                        "answer": null
+                        "answer": "A"
                     },
                     {
                         "id": "174",
@@ -4539,7 +4662,7 @@ const toeicData = {
                             "C": "He accepts that he is not going to meet with a client.",
                             "D": "He acknowledges that he did not complete a task."
                         },
-                        "answer": null
+                        "answer": "A"
                     },
                     {
                         "id": "175",
@@ -4550,7 +4673,7 @@ const toeicData = {
                             "C": "Mr. Miller is unavailable on Wednesday.",
                             "D": "A sales team will be using the conference room on Wednesday."
                         },
-                        "answer": null
+                        "answer": "C"
                     }
                 ]
             },
@@ -4567,7 +4690,7 @@ const toeicData = {
                             "C": "A local business person",
                             "D": "An industry leader"
                         },
-                        "answer": null
+                        "answer": "B"
                     },
                     {
                         "id": "177",
@@ -4578,7 +4701,7 @@ const toeicData = {
                             "C": "It is currently hiring.",
                             "D": "It is releasing its first book."
                         },
-                        "answer": null
+                        "answer": "B"
                     },
                     {
                         "id": "178",
@@ -4589,7 +4712,7 @@ const toeicData = {
                             "C": "Popular training programs in corporations",
                             "D": "Process improvements that work"
                         },
-                        "answer": null
+                        "answer": "A"
                     },
                     {
                         "id": "179",
@@ -4600,7 +4723,7 @@ const toeicData = {
                             "C": "only",
                             "D": "usual"
                         },
-                        "answer": null
+                        "answer": "C"
                     },
                     {
                         "id": "180",
@@ -4611,7 +4734,7 @@ const toeicData = {
                             "C": "Page 83",
                             "D": "Page 119"
                         },
-                        "answer": null
+                        "answer": "D"
                     }
                 ]
             },
@@ -4628,7 +4751,7 @@ const toeicData = {
                             "C": "They take place only during the summer.",
                             "D": "They sell out quickly."
                         },
-                        "answer": null
+                        "answer": "B"
                     },
                     {
                         "id": "182",
@@ -4639,7 +4762,7 @@ const toeicData = {
                             "C": "Audience members may request favorite pieces.",
                             "D": "Interviews with the concert musicians are posted online."
                         },
-                        "answer": null
+                        "answer": "A"
                     },
                     {
                         "id": "183",
@@ -4650,7 +4773,7 @@ const toeicData = {
                             "C": "She played the flute.",
                             "D": "She owned a boat-repair shop."
                         },
-                        "answer": null
+                        "answer": "C"
                     },
                     {
                         "id": "184",
@@ -4661,7 +4784,7 @@ const toeicData = {
                             "C": "An article on a particular topic",
                             "D": "Reduced ticket prices for neighborhood residents"
                         },
-                        "answer": null
+                        "answer": "C"
                     },
                     {
                         "id": "185",
@@ -4672,7 +4795,7 @@ const toeicData = {
                             "C": "He was inspired to become a musician himself.",
                             "D": "He has lived in Centerville since his childhood."
                         },
-                        "answer": null
+                        "answer": "D"
                     }
                 ]
             },
@@ -4689,7 +4812,7 @@ const toeicData = {
                             "C": "To announce updates to a vehicle",
                             "D": "To report on a vehicle usability test"
                         },
-                        "answer": null
+                        "answer": "C"
                     },
                     {
                         "id": "187",
@@ -4700,7 +4823,7 @@ const toeicData = {
                             "C": "The engine",
                             "D": "The mirrors"
                         },
-                        "answer": null
+                        "answer": "A"
                     },
                     {
                         "id": "188",
@@ -4711,7 +4834,7 @@ const toeicData = {
                             "C": "She has recently been promoted to a new position.",
                             "D": "She has driven more than one Nozawa vehicle."
                         },
-                        "answer": null
+                        "answer": "D"
                     },
                     {
                         "id": "189",
@@ -4722,7 +4845,7 @@ const toeicData = {
                             "C": "Next to the display screen",
                             "D": "On the dashboard"
                         },
-                        "answer": null
+                        "answer": "B"
                     },
                     {
                         "id": "190",
@@ -4733,7 +4856,7 @@ const toeicData = {
                             "C": "Customer contact information",
                             "D": "The stereo system"
                         },
-                        "answer": null
+                        "answer": "B"
                     }
                 ]
             },
@@ -4750,7 +4873,7 @@ const toeicData = {
                             "C": "On October 30",
                             "D": "On October 31"
                         },
-                        "answer": null
+                        "answer": "D"
                     },
                     {
                         "id": "192",
@@ -4761,7 +4884,7 @@ const toeicData = {
                             "C": "She did not read the rental agreement carefully.",
                             "D": "She was unable to change her reservation online."
                         },
-                        "answer": null
+                        "answer": "D"
                     },
                     {
                         "id": "193",
@@ -4772,7 +4895,7 @@ const toeicData = {
                             "C": "A reservation agent",
                             "D": "A storage facility manager"
                         },
-                        "answer": null
+                        "answer": "C"
                     },
                     {
                         "id": "194",
@@ -4783,7 +4906,7 @@ const toeicData = {
                             "C": "It folds up for easy transport.",
                             "D": "It is part of a set."
                         },
-                        "answer": null
+                        "answer": "A"
                     },
                     {
                         "id": "195",
@@ -4794,7 +4917,7 @@ const toeicData = {
                             "C": "It includes the cost of fuel.",
                             "D": "It expires in three days."
                         },
-                        "answer": null
+                        "answer": "A"
                     }
                 ]
             },
@@ -4811,7 +4934,7 @@ const toeicData = {
                             "C": "To advertise classes at a cooking school",
                             "D": "To profile different dining establishments in Doncaster"
                         },
-                        "answer": null
+                        "answer": "B"
                     },
                     {
                         "id": "197",
@@ -4822,7 +4945,7 @@ const toeicData = {
                             "C": "Her former professor at school",
                             "D": "Her diverse family background"
                         },
-                        "answer": null
+                        "answer": "D"
                     },
                     {
                         "id": "198",
@@ -4833,7 +4956,7 @@ const toeicData = {
                             "C": "It takes place before Olinawe officially opens.",
                             "D": "It is being sponsored by the Sisra Bistro."
                         },
-                        "answer": null
+                        "answer": "C"
                     },
                     {
                         "id": "199",
@@ -4844,7 +4967,7 @@ const toeicData = {
                             "C": "To welcome Ms. Ikegami to France",
                             "D": "To ask Ms. Ikegami to teach a class"
                         },
-                        "answer": null
+                        "answer": "A"
                     },
                     {
                         "id": "200",
@@ -4855,7 +4978,7 @@ const toeicData = {
                             "C": "He attended Chesterfield Culinary Academy.",
                             "D": "He is the executive chef at Delmourel's."
                         },
-                        "answer": null
+                        "answer": "C"
                     }
                 ]
             }
