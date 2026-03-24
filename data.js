@@ -390,6 +390,45 @@ const toeicData = {
                     }
                 ],
                 "passage": "[Listen to the audio to answer the following questions.]"
+            },
+            {
+                "header": "Questions 68-70",
+                "questions": [
+                    {
+                        "id": "68",
+                        "question": "Where does the conversation most likely take place?",
+                        "options": {
+                            "A": "At a café",
+                            "B": "At an electronics shop",
+                            "C": "At a stationery store",
+                            "D": "At a clothing store"
+                        },
+                        "answer": "A"
+                    },
+                    {
+                        "id": "69",
+                        "question": "Look at the graphic. How much will the man save on his purchase?",
+                        "options": {
+                            "A": "5%",
+                            "B": "3%",
+                            "C": "7%",
+                            "D": "2%"
+                        },
+                        "answer": "D"
+                    },
+                    {
+                        "id": "70",
+                        "question": "What does the man say he will do later today?",
+                        "options": {
+                            "A": "Call a business",
+                            "B": "Return some merchandise",
+                            "C": "Fill out an online survey",
+                            "D": "Clean a work area"
+                        },
+                        "answer": "A"
+                    }
+                ],
+                "passage": "[Listen to the audio to answer the following questions.]"
             }
         ],
         "De 2": [
@@ -1291,50 +1330,50 @@ const toeicData = {
                     }
                 ],
                 "passage": "[Listen to the audio to answer the following questions.]"
-            }
-        ]
-    },
-    "part4": {
-        "De 1": [
+            },
             {
                 "header": "Questions 68-70",
                 "questions": [
                     {
                         "id": "68",
-                        "question": "Where does the conversation most likely take place?",
+                        "question": "Where does the man work?",
                         "options": {
-                            "A": "At a café",
-                            "B": "At an electronics shop",
-                            "C": "At a stationery store",
-                            "D": "At a clothing store"
+                            "A": "At a hotel",
+                            "B": "At a restaurant",
+                            "C": "At a travel agency",
+                            "D": "At a taxi company"
                         },
                         "answer": "A"
                     },
                     {
                         "id": "69",
-                        "question": "Look at the graphic. How much will the man save on his purchase?",
+                        "question": "Look at the graphic. Which shuttle will the woman most likely take?",
                         "options": {
-                            "A": "5%",
-                            "B": "3%",
-                            "C": "7%",
-                            "D": "2%"
+                            "A": "Shuttle A",
+                            "B": "Shuttle B",
+                            "C": "Shuttle C",
+                            "D": "Shuttle D"
                         },
-                        "answer": "D"
+                        "answer": "B"
                     },
                     {
                         "id": "70",
-                        "question": "What does the man say he will do later today?",
+                        "question": "What does the man say he will do?",
                         "options": {
-                            "A": "Call a business",
-                            "B": "Return some merchandise",
-                            "C": "Fill out an online survey",
-                            "D": "Clean a work area"
+                            "A": "Print a map",
+                            "B": "Provide a voucher",
+                            "C": "Call a driver",
+                            "D": "Reserve a seat"
                         },
-                        "answer": "A"
+                        "answer": "B"
                     }
                 ],
                 "passage": "[Listen to the audio to answer the following questions.]"
-            },
+            }
+        ]
+    },
+    "part4": {
+        "De 1": [
             {
                 "header": "Questions 71-73",
                 "questions": [
@@ -2136,45 +2175,6 @@ const toeicData = {
             }
         ],
         "De 3": [
-            {
-                "header": "Questions 68-70",
-                "questions": [
-                    {
-                        "id": "68",
-                        "question": "Where does the man work?",
-                        "options": {
-                            "A": "At a hotel",
-                            "B": "At a restaurant",
-                            "C": "At a travel agency",
-                            "D": "At a taxi company"
-                        },
-                        "answer": "A"
-                    },
-                    {
-                        "id": "69",
-                        "question": "Look at the graphic. Which shuttle will the woman most likely take?",
-                        "options": {
-                            "A": "Shuttle A",
-                            "B": "Shuttle B",
-                            "C": "Shuttle C",
-                            "D": "Shuttle D"
-                        },
-                        "answer": "B"
-                    },
-                    {
-                        "id": "70",
-                        "question": "What does the man say he will do?",
-                        "options": {
-                            "A": "Print a map",
-                            "B": "Provide a voucher",
-                            "C": "Call a driver",
-                            "D": "Reserve a seat"
-                        },
-                        "answer": "B"
-                    }
-                ],
-                "passage": "[Listen to the audio to answer the following questions.]"
-            },
             {
                 "header": "Questions 71-73",
                 "questions": [

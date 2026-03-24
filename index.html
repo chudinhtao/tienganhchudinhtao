@@ -43,6 +43,10 @@
                     <span id="progress-badge" class="badge hidden">0/0 Completed</span>
                 </div>
                 <div class="actions">
+                    <div class="mode-switcher" id="mode-switcher">
+                        <button class="mode-btn active" id="mode-btn-all" title="Làm tất cả rồi nộp">📋 Làm tất cả</button>
+                        <button class="mode-btn" id="mode-btn-one" title="Làm từng câu, xem đáp án ngay">⚡ Làm từng câu</button>
+                    </div>
                     <label class="toggle-container" title="Shuffle questions in test">
                         <input type="checkbox" id="toggle-random">
                         <span class="slider"></span>
@@ -50,6 +54,7 @@
                     </label>
                     <button class="btn btn-secondary" id="btn-reset">Reset</button>
                     <button class="btn btn-primary" id="btn-submit">Submit Answers</button>
+                    <button class="btn btn-next hidden" id="btn-next">Câu tiếp theo →</button>
                 </div>
             </header>
             
@@ -64,7 +69,7 @@
     </div>
 
     <!-- Data and App scripts -->
-    <script src="data.js"></script>
-    <script src="app.js"></script>
+    <script src="data.js?v=2"></script>
+    <script src="app.js?v=5"></script>
 </body>
 </html>

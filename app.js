@@ -7,7 +7,12 @@ document.addEventListener('DOMContentLoaded', () => {
         isSubmitted: false,
         isRandom: false,
         currentAnswerKey: {}, // qId -> answer mappings
-        mixedTestItems: []    // cached array of test blocks for the "mix" mode
+        mixedTestItems: [],   // cached array of test blocks for the "mix" mode
+        // One-by-one mode
+        mode: 'all',          // 'all' | 'one'
+        oboItems: [],         // flat list of items in obo mode
+        oboIndex: 0,          // current item index
+        oboScore: 0           // correct answers so far
     };
 
     // DOM Elements
@@ -19,6 +24,10 @@ document.addEventListener('DOMContentLoaded', () => {
         progressBadge: document.getElementById('progress-badge'),
         btnSubmit: document.getElementById('btn-submit'),
         btnReset: document.getElementById('btn-reset'),
+        btnNext: document.getElementById('btn-next'),
+        modeBtnAll: document.getElementById('mode-btn-all'),
+        modeBtnOne: document.getElementById('mode-btn-one'),
+        modeSwitcher: document.getElementById('mode-switcher'),
         toggleRandom: document.getElementById('toggle-random')
     };
 
@@ -182,8 +191,186 @@ document.addEventListener('DOMContentLoaded', () => {
             elements.toggleRandom.parentElement.classList.remove('hidden');
         }
         
+        // In 'Làm từng câu' mode: show all questions but hide Submit
+        if (state.mode === 'one' && state.selectedPart !== 'overview') {
+            elements.btnSubmit.classList.add('hidden');
+            elements.btnNext.classList.add('hidden');
+        }
         renderTestContent();
     }
+
+    // ─── ONE-BY-ONE MODE ─────────────────────────────────────────────────────
+
+    function buildOboItems() {
+        // Flatten ALL questions into individual items, each with optional passage context
+        let flatItems = [];
+
+        function addFromPartData(partData, partId, testName) {
+            const isListening = ['part3','part4'].includes(partId);
+            const data = partData[testName];
+            if (!data) return;
+
+            if (partId === 'part5') {
+                data.forEach(q => {
+                    flatItems.push({ q, passage: null, header: null, isListening: false });
+                });
+            } else {
+                data.forEach(group => {
+                    group.questions.forEach(q => {
+                        flatItems.push({
+                            q,
+                            passage: group.passage,
+                            header: group.header,
+                            isListening
+                        });
+                    });
+                });
+            }
+        }
+
+        if (state.selectedPart === 'mixed') {
+            state.mixedTestItems.forEach(item => {
+                const isListening = item.isListening || false;
+                if (item.type === 'single') {
+                    flatItems.push({ q: item.data, passage: null, header: null, isListening: false });
+                } else {
+                    item.data.questions.forEach(q => {
+                        flatItems.push({ q, passage: item.data.passage, header: item.data.header, isListening });
+                    });
+                }
+            });
+        } else {
+            addFromPartData(toeicData[state.selectedPart], state.selectedPart, state.selectedTest);
+        }
+
+        if (state.isRandom) shuffle(flatItems);
+        return flatItems;
+    }
+
+    function startOboMode() {
+        state.oboItems = buildOboItems();
+        state.oboIndex = 0;
+        state.oboScore = 0;
+        state.userAnswers = {};
+        state.currentAnswerKey = {};
+        state.isSubmitted = false;
+        renderOboQuestion();
+        updateOboProgress();
+    }
+
+    function renderOboQuestion() {
+        elements.testArea.innerHTML = '';
+        const item = state.oboItems[state.oboIndex];
+        if (!item) return;
+
+        const wrapper = document.createElement('div');
+        wrapper.className = 'passage-card obo-current';
+
+        // Show context header + passage if available
+        if (item.header) {
+            const hdr = document.createElement('div');
+            hdr.className = 'passage-header';
+            hdr.innerHTML = `<span style="color:var(--text-muted);font-size:13px;font-weight:500">Nhóm: ${item.header}</span>`;
+            wrapper.appendChild(hdr);
+        }
+        if (item.passage) {
+            const pt = document.createElement('div');
+            pt.className = item.isListening ? 'passage-text listening-note' : 'passage-text';
+            pt.textContent = item.passage;
+            wrapper.appendChild(pt);
+        }
+
+        // Render single question (grouped style)
+        const qEl = createQuestionHTML(item.q, state.oboIndex, !!item.passage);
+        wrapper.appendChild(qEl);
+
+        // Auto-reveal on selection
+        wrapper.querySelectorAll('.option-input').forEach(radio => {
+            radio.addEventListener('change', () => {
+                setTimeout(() => oboRevealCurrent(), 120);
+            });
+        });
+
+        elements.testArea.appendChild(wrapper);
+        elements.btnNext.classList.add('hidden');
+    }
+
+    function oboRevealCurrent() {
+        const item = state.oboItems[state.oboIndex];
+        const qId = item.q.id;
+
+        if (state.userAnswers[qId] === undefined) return;
+
+        // Disable radios
+        elements.testArea.querySelectorAll('.option-input').forEach(r => r.disabled = true);
+
+        const uAns = state.userAnswers[qId];
+        const cAns = state.currentAnswerKey[qId];
+        const qCard = elements.testArea.querySelector(`[data-q-id="${qId}"]`);
+        const expDiv = document.getElementById(`explain-${qId}`);
+
+        if (cAns) {
+            const correctLabel = qCard && qCard.querySelector(`.opt-${cAns}`);
+            if (correctLabel) correctLabel.classList.add('correct');
+        }
+
+        if (uAns === cAns) {
+            state.oboScore++;
+            if (expDiv) { expDiv.textContent = '✅ Chính xác!'; expDiv.className = 'explanation correct-msg'; }
+        } else {
+            const wrongLabel = qCard && qCard.querySelector(`.opt-${uAns}`);
+            if (wrongLabel) wrongLabel.classList.add('incorrect');
+            if (expDiv) { expDiv.innerHTML = `❌ Sai. Đáp án đúng là <strong>${cAns}</strong>.`; expDiv.className = 'explanation incorrect-msg'; }
+        }
+
+        updateOboProgress();
+
+        const total = state.oboItems.length;
+        if (state.oboIndex < total - 1) {
+            elements.btnNext.classList.remove('hidden');
+            elements.btnNext.textContent = `Câu tiếp theo → (${state.oboIndex + 1}/${total})`;
+        } else {
+            setTimeout(oboFinish, 600);
+        }
+    }
+
+    function oboNextQuestion() {
+        state.oboIndex++;
+        if (state.oboIndex < state.oboItems.length) {
+            renderOboQuestion();
+            updateOboProgress();
+            window.scrollTo(0, 0);
+        } else {
+            oboFinish();
+        }
+    }
+
+    function oboFinish() {
+        elements.btnNext.classList.add('hidden');
+        const total = state.oboItems.length;
+        const correct = state.oboScore;
+        const pct = total > 0 ? Math.round(correct / total * 100) : 0;
+        const emoji = pct >= 80 ? '🎉' : pct >= 50 ? '👍' : '💪';
+
+        elements.testArea.innerHTML = `
+            <div class="obo-finish-banner">
+                <h2>${emoji} Hoàn thành!</h2>
+                <p>Bạn đúng <strong>${correct}/${total}</strong> câu — ${pct}%</p>
+            </div>
+        `;
+        elements.progressBadge.textContent = `Kết quả: ${correct}/${total} (${pct}%)`;
+        elements.progressBadge.style.backgroundColor = pct >= 80 ? 'var(--success)' : pct >= 50 ? '#f59e0b' : 'var(--error)';
+        elements.progressBadge.style.color = 'white';
+    }
+
+    function updateOboProgress() {
+        const total = state.oboItems.length;
+        const answered = Object.keys(state.userAnswers).length;
+        elements.progressBadge.textContent = `${answered}/${total} Đã trả lời`;
+        elements.progressBadge.classList.remove('hidden');
+    }
+
+    // ─────────────────────────────────────────────────────────────────────────
 
     function generateMixedTest() {
         let items = [];
@@ -302,6 +489,7 @@ document.addEventListener('DOMContentLoaded', () => {
         updateProgress();
     }
 
+
     function createQuestionHTML(qData, uniqueId, isGrouped = false) {
         // Collect answer key
         state.currentAnswerKey[qData.id] = qData.answer;
@@ -350,6 +538,25 @@ document.addEventListener('DOMContentLoaded', () => {
                 label.classList.add('selected');
                 
                 updateProgress();
+
+                // In 'Làm từng câu' mode: reveal answer immediately
+                if (state.mode === 'one') {
+                    const cAns = state.currentAnswerKey[qData.id];
+                    // Disable all options for this question
+                    container.querySelectorAll('.option-input').forEach(r => r.disabled = true);
+                    // Highlight correct answer
+                    if (cAns) {
+                        const correctLabel = container.querySelector(`.opt-${cAns}`);
+                        if (correctLabel) correctLabel.classList.add('correct');
+                    }
+                    const expDiv = document.getElementById(`explain-${qData.id}`);
+                    if (letter === cAns) {
+                        if (expDiv) { expDiv.textContent = '\u2705 Ch\u00ednh x\u00e1c!'; expDiv.className = 'explanation correct-msg'; }
+                    } else {
+                        label.classList.add('incorrect');
+                        if (expDiv) { expDiv.innerHTML = `\u274c Sai. \u0110\u00e1p \u00e1n \u0111\u00fang l\u00e0 <strong>${cAns}</strong>.`; expDiv.className = 'explanation incorrect-msg'; }
+                    }
+                }
             });
 
             const customRadio = document.createElement('div');
@@ -469,6 +676,30 @@ document.addEventListener('DOMContentLoaded', () => {
     function setupEventListeners() {
         elements.btnSubmit.addEventListener('click', submitAnswers);
         elements.btnReset.addEventListener('click', resetTest);
+        elements.btnNext.addEventListener('click', oboNextQuestion);
+
+        // Mode switcher
+        elements.modeBtnAll.addEventListener('click', () => {
+            if (state.mode === 'all') return;
+            state.mode = 'all';
+            elements.modeBtnAll.classList.add('active');
+            elements.modeBtnOne.classList.remove('active');
+            elements.btnSubmit.classList.remove('hidden');
+            elements.btnNext.classList.add('hidden');
+            if (state.selectedTest) selectTest(state.selectedTest);
+        });
+
+        elements.modeBtnOne.addEventListener('click', () => {
+            if (state.mode === 'one') return;
+            state.mode = 'one';
+            elements.modeBtnOne.classList.add('active');
+            elements.modeBtnAll.classList.remove('active');
+            elements.btnSubmit.classList.add('hidden');
+            elements.btnNext.classList.add('hidden');
+            if (state.selectedTest && state.selectedPart !== 'overview') {
+                startOboMode();
+            }
+        });
         
         elements.toggleRandom.addEventListener('change', (e) => {
             state.isRandom = e.target.checked;
