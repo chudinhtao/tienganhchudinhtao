@@ -697,7 +697,7 @@ document.addEventListener('DOMContentLoaded', () => {
             elements.btnSubmit.classList.add('hidden');
             elements.btnNext.classList.add('hidden');
             if (state.selectedTest && state.selectedPart !== 'overview') {
-                startOboMode();
+                selectTest(state.selectedTest);
             }
         });
         
