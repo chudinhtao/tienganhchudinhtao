@@ -34,8 +34,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // Configuration
     const partsArray = [
         { id: 'overview', name: '📚 Cấu Trúc & Phương Pháp', available: true, isSpecial: true },
-        { id: 'part1', name: 'Part 1: Photographs', available: false },
-        { id: 'part2', name: 'Part 2: Question-Response', available: false },
+        { id: 'part1', name: 'Part 1: Photographs', available: true },
+        { id: 'part2', name: 'Part 2: Question-Response', available: true },
         { id: 'part3', name: 'Part 3: Conversations', available: true },
         { id: 'part4', name: 'Part 4: Short Talks', available: true },
         { id: 'part5', name: 'Part 5: Incomplete Sentences', available: true },
@@ -210,9 +210,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const data = partData[testName];
             if (!data) return;
 
-            if (partId === 'part5') {
+            if (['part1', 'part2', 'part5'].includes(partId)) {
                 data.forEach(q => {
-                    flatItems.push({ q, passage: null, header: null, isListening: false });
+                    flatItems.push({ q, passage: null, header: null, isListening: partId !== 'part5' });
                 });
             } else {
                 data.forEach(group => {
@@ -385,7 +385,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const randTest = tests[Math.floor(Math.random() * tests.length)];
             const tData = partData[randTest];
             
-            if (pId === 'part5') {
+            if (['part1', 'part2', 'part5'].includes(pId)) {
                 // Group each individual question so it can be shuffled independently
                 tData.forEach(q => {
                     items.push({ type: 'single', data: q, originalPart: pId });
@@ -448,7 +448,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         } else {
             const data = toeicData[state.selectedPart][state.selectedTest];
-            if (state.selectedPart === 'part5') {
+            if (['part1', 'part2', 'part5'].includes(state.selectedPart)) {
                 data.forEach(q => itemsToRender.push({ type: 'single', data: q }));
             } else if (state.selectedPart === 'part3' || state.selectedPart === 'part4') {
                 data.forEach(p => itemsToRender.push({ type: 'passage', data: p, isListening: true }));
@@ -514,6 +514,18 @@ document.addEventListener('DOMContentLoaded', () => {
         headerDiv.appendChild(numDiv);
         headerDiv.appendChild(textDiv);
         container.appendChild(headerDiv);
+
+        if (qData.image) {
+            const imgEl = document.createElement('img');
+            imgEl.src = qData.image;
+            imgEl.style.maxWidth = '100%';
+            imgEl.style.maxHeight = '300px';
+            imgEl.style.objectFit = 'contain';
+            imgEl.style.borderRadius = '8px';
+            imgEl.style.marginTop = '15px';
+            imgEl.style.marginBottom = '15px';
+            container.appendChild(imgEl);
+        }
 
         const optionsDiv = document.createElement('div');
         optionsDiv.className = 'options';

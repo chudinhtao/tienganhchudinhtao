@@ -1,4 +1,986 @@
 const toeicData = {
+    "part1": {
+        "De 1": [
+            {
+                "id": "1",
+                "question": "Look at the picture marked number one in your test book.",
+                "options": {
+                    "A": "A woman is typing at a desk.",
+                    "B": "A woman is searching a bookshelf.",
+                    "C": "A woman is taking down some posters.",
+                    "D": "A woman is leaving a building."
+                },
+                "answer": "B",
+                "image": "assets/part1/image1.png"
+            },
+            {
+                "id": "2",
+                "question": "Look at the picture marked number two in your test book.",
+                "options": {
+                    "A": "Some shirts have been hung on a clothing rack.",
+                    "B": "A light fixture is attached to a column.",
+                    "C": "Some boxes of clothing have been set on the floor.",
+                    "D": "Some merchandise is on display in a store."
+                },
+                "answer": "D",
+                "image": "assets/part1/image2.png"
+            },
+            {
+                "id": "3",
+                "question": "Number three. Look at the picture marked number three in your test book.",
+                "options": {
+                    "A": "An announcer is setting down a microphone.",
+                    "B": "Some workers are constructing a platform.",
+                    "C": "There are some performers on a stage.",
+                    "D": "Some musicians are unpacking their equipment."
+                },
+                "answer": "C",
+                "image": "assets/part1/image3.png"
+            },
+            {
+                "id": "4",
+                "question": "Look at the picture marked number four in your test book.",
+                "options": {
+                    "A": "Some employees are washing some windows.",
+                    "B": "A shopper is carrying a package.",
+                    "C": "Some shopping carts have been lined up in a row.",
+                    "D": "Some products have fallen on the ground."
+                },
+                "answer": "B",
+                "image": "assets/part1/image4.png"
+            },
+            {
+                "id": "5",
+                "question": "Look at the picture marked number five in your test book.",
+                "options": {
+                    "A": "All of the people are wearing hats.",
+                    "B": "Several cars are parked in a garage.",
+                    "C": "Many performers are signing autographs.",
+                    "D": "Sound equipment has been set up on a stage."
+                },
+                "answer": "D",
+                "image": "assets/part1/image5.png"
+            },
+            {
+                "id": "6",
+                "question": "Look at the picture marked number six in your test book.",
+                "options": {
+                    "A": "Some passengers are waiting on the walkway.",
+                    "B": "Some bicycles are mounted on a bus.",
+                    "C": "A bus is being driven down a road.",
+                    "D": "A garage door has been opened."
+                },
+                "answer": "",
+                "image": "assets/part1/image6.png"
+            }
+        ],
+        "De 2": [
+            {
+                "id": "1",
+                "question": "Look at the picture marked number one in your test book.",
+                "options": {
+                    "A": "She's closing a door.",
+                    "B": "She's washing some plates",
+                    "C": "She's preparing some food.",
+                    "D": "She's sweeping a floor."
+                },
+                "answer": "C",
+                "image": "assets/part1/image7.png"
+            },
+            {
+                "id": "2",
+                "question": "Look at the picture marked number two in your test book.",
+                "options": {
+                    "A": "A man is repairing a railing.",
+                    "B": "A man is climbing some stairs.",
+                    "C": "A man is carrying a ladder.",
+                    "D": "A man is looking up at a roof."
+                },
+                "answer": "B",
+                "image": "assets/part1/image8.png"
+            },
+            {
+                "id": "3",
+                "question": "Look at the pieture marked number three in your test book.",
+                "options": {
+                    "A": "One of the men is emptying out a plastic bag.",
+                    "B": "They're waiting in line at a checkout counter.",
+                    "C": "One of the men is pointing at some flowers",
+                    "D": "They're selecting some fruits and vegetables."
+                },
+                "answer": "C",
+                "image": "assets/part1/image9.png"
+            },
+            {
+                "id": "4",
+                "question": "Look at the picture marked number four in your test book.",
+                "options": {
+                    "A": "One of the workers is opening a display case.",
+                    "B": "One of the workers is tying a necktie.",
+                    "C": "The workers are behind a counter. = dung sau quay",
+                    "D": "The workers are greeting some customers."
+                },
+                "answer": "C",
+                "image": "assets/part1/image10.png"
+            },
+            {
+                "id": "5",
+                "question": "Look at the picture marked number five in your test book.",
+                "options": {
+                    "A": "A man is loading some bricks onto a cart.",
+                    "B": "A man is cutting the grass alongside a road.",
+                    "C": "A man is driving a truck into a parking garage.",
+                    "D": "A man is using a shovel to move some dirt- dùng xèng xúc đất"
+                },
+                "answer": "D",
+                "image": "assets/part1/image11.png"
+            },
+            {
+                "id": "6",
+                "question": "Look at the picture marked number six in your test book.",
+                "options": {
+                    "A": "One of the women is picking up a suitcase.",
+                    "B": "One of the women is holding a notebook under her arm.",
+                    "C": "One of the women is standing in the doorway.",
+                    "D": "One of the women is posting a sign on the wall."
+                },
+                "answer": "B",
+                "image": "assets/part1/image12.png"
+            }
+        ],
+        "De 3": [
+            {
+                "id": "1",
+                "question": "Look at the picture marked number one in your test book.",
+                "options": {
+                    "A": "She's cating in a picnic arca.",
+                    "B": "She's waiting in line at a food truck.",
+                    "C": "She's wiping off a bench.",
+                    "D": "She's throwing away a plate."
+                },
+                "answer": "A",
+                "image": "assets/part1/image13.png"
+            },
+            {
+                "id": "2",
+                "question": "Number two. Look at the picture marked number.two in your test book",
+                "options": {
+                    "A": "She's looking through a purse.",
+                    "B": "She's holding a suitcase.",
+                    "C": "She's hanging a poster.",
+                    "D": "She's putting an umbrella into a basket."
+                },
+                "answer": "D",
+                "image": "assets/part1/image14.png"
+            },
+            {
+                "id": "3",
+                "question": "Number three. Look at the picture marked number three in your test book",
+                "options": {
+                    "A": "She is attaching price tags to some merchandise.",
+                    "B": "She is piling up some boxes.",
+                    "C": "She is holding up some fruit.",
+                    "D": "She is throwing away a plastic bag"
+                },
+                "answer": "C",
+                "image": "assets/part1/image15.png"
+            },
+            {
+                "id": "4",
+                "question": "Number four. Look at the picture marked number four in your test book.",
+                "options": {
+                    "A": "Some flowers are being planted.",
+                    "B": "Some leaves have been raked into a pile.",
+                    "C": "Some stairs are being repaired.",
+                    "D": "Some fruit has been stacked in a bin."
+                },
+                "answer": "D",
+                "image": "assets/part1/image16.png"
+            },
+            {
+                "id": "5",
+                "question": "Number five. Look at the picture marked number five in your test book",
+                "options": {
+                    "A": "Potted plants have been suspended from a ceiling",
+                    "B": "Chairs have been stacked in front of an entryway.",
+                    "C": "A computer station has been set up on a desk.",
+                    "D": "A rug has been rolled up against a wall"
+                },
+                "answer": "C",
+                "image": "assets/part1/image17.png"
+            },
+            {
+                "id": "6",
+                "question": "Number six. Look at the picture marked number six in your test book.",
+                "options": {
+                    "A": "One of the employees is walking with an empty tray.",
+                    "B": "One of the employees is taping signs to a board.",
+                    "C": "One of the employees is carrying a pair of scissors.",
+                    "D": "One of the employees is hanging an apron on a hook."
+                },
+                "answer": "A",
+                "image": "assets/part1/image18.png"
+            }
+        ]
+    },
+    "part2": {
+        "De 1": [
+            {
+                "id": "7",
+                "question": "Which shoes are on sale this weekend?",
+                "options": {
+                    "A": "That's a good choice.",
+                    "B": "The ones on this table.",
+                    "C": "I checked her resume."
+                },
+                "answer": "B"
+            },
+            {
+                "id": "8",
+                "question": "Would you like to pay for the cake now or when it's delivered?",
+                "options": {
+                    "A": "Chocolate, please.",
+                    "B": "Actually, none of them were.",
+                    "C": "I'll pay now."
+                },
+                "answer": "C"
+            },
+            {
+                "id": "9",
+                "question": "Doesn't Thomas usually work the evening shift?",
+                "options": {
+                    "A": "It was working fine earlier.",
+                    "B": "Someone from the day shift is out sick today.",
+                    "C": "Let's clean the warehouse."
+                },
+                "answer": "B"
+            },
+            {
+                "id": "10",
+                "question": "Isn't there a pharmacy on 15th street?",
+                "options": {
+                    "A": "Yes, it's near the bank.",
+                    "B": "A prescription refill.",
+                    "C": "No, they're locally grown."
+                },
+                "answer": "A"
+            },
+            {
+                "id": "11",
+                "question": "Where is this shipment of supplies going?",
+                "options": {
+                    "A": "Not until 5 o'clock.",
+                    "B": "It's going to Texas.",
+                    "C": "We met on the ship."
+                },
+                "answer": "B"
+            },
+            {
+                "id": "12",
+                "question": "The new Peruvian restaurant is great, isn't it?",
+                "options": {
+                    "A": "No, it's at gate 18.",
+                    "B": "Yeah, the food is delicious.",
+                    "C": "A table for two, please."
+                },
+                "answer": "B"
+            },
+            {
+                "id": "13",
+                "question": "How did you improve the processing speed?",
+                "options": {
+                    "A": "That's a question for Sylvia.",
+                    "B": "What's the speed limit?",
+                    "C": "I don't like to swim."
+                },
+                "answer": "A"
+            },
+            {
+                "id": "14",
+                "question": "Do you take exercise classes too, or just dance classes?",
+                "options": {
+                    "A": "The instructor teaches in the mornings.",
+                    "B": "These shoes fit perfectly.",
+                    "C": "I only take dance."
+                },
+                "answer": "C"
+            },
+            {
+                "id": "15",
+                "question": "When will the new coffee machine be installed in the lobby?",
+                "options": {
+                    "A": "No, it wasn't expensive.",
+                    "B": "The front door is unlocked.",
+                    "C": "Within the next few days."
+                },
+                "answer": "C"
+            },
+            {
+                "id": "16",
+                "question": "Why is Maria out of the office today?",
+                "options": {
+                    "A": "About 2,000 square meters.",
+                    "B": "Because she's picking up some clients.",
+                    "C": "It's next to the marketing department."
+                },
+                "answer": "B"
+            },
+            {
+                "id": "17",
+                "question": "There's heavy traffic on the highway.",
+                "options": {
+                    "A": "I hope I don't miss my plane.",
+                    "B": "I'm doing well, thanks.",
+                    "C": "The box is very light."
+                },
+                "answer": "A"
+            },
+            {
+                "id": "18",
+                "question": "Did John send the expense sheet by email or regular mail?",
+                "options": {
+                    "A": "In the printer.",
+                    "B": "Yes, it's very expensive.",
+                    "C": "Probably by email."
+                },
+                "answer": "C"
+            },
+            {
+                "id": "19",
+                "question": "Have you looked at the designs for the book cover?",
+                "options": {
+                    "A": "I've been in meetings all morning.",
+                    "B": "Sure, I'll cover the furniture.",
+                    "C": "Your appointment's booked."
+                },
+                "answer": "A"
+            },
+            {
+                "id": "20",
+                "question": "When are the new employees starting?",
+                "options": {
+                    "A": "Three years of experience.",
+                    "B": "They'll be here tomorrow afternoon.",
+                    "C": "The same salary as before."
+                },
+                "answer": "B"
+            },
+            {
+                "id": "21",
+                "question": "Should I go on the morning flight or wait until the afternoon?",
+                "options": {
+                    "A": "Seven hours.",
+                    "B": "Okay, that should be fine.",
+                    "C": "Take the morning flight."
+                },
+                "answer": "C"
+            },
+            {
+                "id": "22",
+                "question": "When will next month's cost projections be ready?",
+                "options": {
+                    "A": "That portable projector was recently replaced.",
+                    "B": "An unexpected surplus.",
+                    "C": "I sent an email a few minutes ago."
+                },
+                "answer": "C"
+            },
+            {
+                "id": "23",
+                "question": "Would you ask Tae-joon to help set up the product display?",
+                "options": {
+                    "A": "Several kinds of headsets.",
+                    "B": "No, I can do it myself.",
+                    "C": "I can't see the bottom line of the chart."
+                },
+                "answer": "B"
+            },
+            {
+                "id": "24",
+                "question": "Which version of the contract do you have?",
+                "options": {
+                    "A": "He's a general contractor.",
+                    "B": "On the second floor.",
+                    "C": "The final one."
+                },
+                "answer": "C"
+            },
+            {
+                "id": "25",
+                "question": "Are you taking the train or riding the bus to work?",
+                "options": {
+                    "A": "Usually, they're on schedule.",
+                    "B": "No, it's a project for work.",
+                    "C": "My car's back from the repair shop."
+                },
+                "answer": "C"
+            },
+            {
+                "id": "26",
+                "question": "Would you like a tour of the new automobile factory this afternoon?",
+                "options": {
+                    "A": "A manufacturing process.",
+                    "B": "I was there on Monday.",
+                    "C": "It's the old model."
+                },
+                "answer": "B"
+            },
+            {
+                "id": "27",
+                "question": "Who ordered the cake for Miguel's retirement party?",
+                "options": {
+                    "A": "We need to replace that tire.",
+                    "B": "No, it's at 8 o'clock.",
+                    "C": "We're serving ice cream instead."
+                },
+                "answer": "C"
+            },
+            {
+                "id": "28",
+                "question": "How do you want me to display the new products?",
+                "options": {
+                    "A": "We shop there too.",
+                    "B": "Please arrange them according to color.",
+                    "C": "Production is going well."
+                },
+                "answer": "B"
+            },
+            {
+                "id": "29",
+                "question": "Where's the instruction manual for the video conferencing software?",
+                "options": {
+                    "A": "In the file cabinet.",
+                    "B": "On Saturday.",
+                    "C": "The marketing conference."
+                },
+                "answer": "A"
+            },
+            {
+                "id": "30",
+                "question": "This mirror would look good in the corner, don't you think?",
+                "options": {
+                    "A": "You're a better decorator than I am.",
+                    "B": "I don't think I have any.",
+                    "C": "A brand new vacuum cleaner."
+                },
+                "answer": "A"
+            },
+            {
+                "id": "31",
+                "question": "Which radio advertisement did the focus group like best?",
+                "options": {
+                    "A": "That's the best decision.",
+                    "B": "An increased advertising budget.",
+                    "C": "There was a problem with the sound system."
+                },
+                "answer": "C"
+            }
+        ],
+        "De 2": [
+            {
+                "id": "7",
+                "question": "Which shoes are on sale this weekend?",
+                "options": {
+                    "A": "That's a good choice.",
+                    "B": "The ones on this table.",
+                    "C": "I checked her resume."
+                },
+                "answer": "B"
+            },
+            {
+                "id": "8",
+                "question": "Where's your apartment building located?",
+                "options": {
+                    "A": "Not very often.",
+                    "B": "20 floors.",
+                    "C": "On Fifth Avenue."
+                },
+                "answer": "C"
+            },
+            {
+                "id": "9",
+                "question": "Which flavor ice cream would you like?",
+                "options": {
+                    "A": "Yes, in a bowl.",
+                    "B": "I'll take chocolate, please.",
+                    "C": "The booth over there."
+                },
+                "answer": "B"
+            },
+            {
+                "id": "10",
+                "question": "When are you moving to your new office?",
+                "options": {
+                    "A": "The office printer over there.",
+                    "B": "The water bill is high this month.",
+                    "C": "The schedule is being revised."
+                },
+                "answer": "C"
+            },
+            {
+                "id": "11",
+                "question": "Would you like to sign up for the company retreat?",
+                "options": {
+                    "A": "Sure, I'll write my name down.",
+                    "B": "20 people maximum.",
+                    "C": "Can I replace the sign?"
+                },
+                "answer": "A"
+            },
+            {
+                "id": "12",
+                "question": "How often do I have to submit my timesheet?",
+                "options": {
+                    "A": "5 sheets of paper.",
+                    "B": "You need to do it once a week.",
+                    "C": "No, I don't usually wear a watch."
+                },
+                "answer": "B"
+            },
+            {
+                "id": "13",
+                "question": "Didn't we renew our newspaper subscription last month?",
+                "options": {
+                    "A": "That photo is on the front page.",
+                    "B": "Here's the paper for your newsletter.",
+                    "C": "Yes, it was renewed for another 6 months."
+                },
+                "answer": "C"
+            },
+            {
+                "id": "14",
+                "question": "When will we mention our budgetary needs to the outreach coordinator?",
+                "options": {
+                    "A": "I can't quite reach the top shelf.",
+                    "B": "We're fully funded through the end of the year.",
+                    "C": "Because our accountant is on vacation."
+                },
+                "answer": "B"
+            },
+            {
+                "id": "15",
+                "question": "My appointment is with Dr. Hamdi today, right?",
+                "options": {
+                    "A": "Usually an annual checkup.",
+                    "B": "No, parking is not free.",
+                    "C": "Yes, and she'll see you in a minute."
+                },
+                "answer": "C"
+            },
+            {
+                "id": "16",
+                "question": "What's the total cost of the repair work?",
+                "options": {
+                    "A": "It's free because of the warranty.",
+                    "B": "I have some boxes you can use.",
+                    "C": "In a couple of hours."
+                },
+                "answer": "A"
+            },
+            {
+                "id": "17",
+                "question": "Where can I get a new filing cabinet?",
+                "options": {
+                    "A": "All of the cabins have been rented.",
+                    "B": "I'll put the tiles in the corner.",
+                    "C": "All furniture= đo nội thất requests must be approved=dc phe duyet first."
+                },
+                "answer": "C"
+            },
+            {
+                "id": "18",
+                "question": "How do I reset my password?",
+                "options": {
+                    "A": "By the end of the month.",
+                    "B": "You should call the help desk= bộ phận ky thuật.",
+                    "C": "Thanks for setting the table."
+                },
+                "answer": "B"
+            },
+            {
+                "id": "19",
+                "question": "Could you show me where the electronics department is?",
+                "options": {
+                    "A": "The show starts at 8 p.m.",
+                    "B": "Replace the batteries.",
+                    "C": "Sure, follow me."
+                },
+                "answer": "C"
+            },
+            {
+                "id": "20",
+                "question": "What's this shirt made of?",
+                "options": {
+                    "A": "In Spain, I believe.",
+                    "B": "Let me check the label.",
+                    "C": "It also comes in blue."
+                },
+                "answer": "B"
+            },
+            {
+                "id": "21",
+                "question": "Will the social media workshop end before 6 p.m .?",
+                "options": {
+                    "A": "No, the late shift.",
+                    "B": "The schedule's online.",
+                    "C": "I only read newspapers."
+                },
+                "answer": "B"
+            },
+            {
+                "id": "22",
+                "question": "I don't know if the packaging materials were ordered already.",
+                "options": {
+                    "A": "I saw some boxes on the loading dock.",
+                    "B": "She's wearing a red hat.",
+                    "C": "A lunch appointment at 12:30."
+                },
+                "answer": "A"
+            },
+            {
+                "id": "23",
+                "question": "Could you please send me the sales report?",
+                "options": {
+                    "A": "50% off last season's merchandise.",
+                    "B": "Of course, I'll do it now.",
+                    "C": "Did you check the weather report?"
+                },
+                "answer": "B"
+            },
+            {
+                "id": "24",
+                "question": "What type of view will your apartment have?",
+                "options": {
+                    "A": "The kitchen lighting looks great.",
+                    "B": "I haven't signed a lease= ký hợp đồng thuê yet.",
+                    "C": "We're in complete agreement on that."
+                },
+                "answer": "B"
+            },
+            {
+                "id": "25",
+                "question": "Would you like to have lunch with the clients?",
+                "options": {
+                    "A": "About a three-hour flight.",
+                    "B": "The first stage of the project.",
+                    "C": "Sure, we can go to the cafe downstairs."
+                },
+                "answer": "C"
+            },
+            {
+                "id": "26",
+                "question": "How about hiring an event planner to organize the holiday party?",
+                "options": {
+                    "A": "I think it's on the lower shelf.",
+                    "B": "Sure, I'd love to attend.",
+                    "C": "There's not much money in the budget= ngan sach."
+                },
+                "answer": "C"
+            },
+            {
+                "id": "27",
+                "question": "Isn't that carmaker planning to start exporting electric cars?",
+                "options": {
+                    "A": "Yes, I've heard that's the plan.",
+                    "B": "A ticket to next year's car show.",
+                    "C": "Congratulations on your promotion."
+                },
+                "answer": "A"
+            },
+            {
+                "id": "28",
+                "question": "How long does it take to become a plumber= tho sua ong nưoc?",
+                "options": {
+                    "A": "It happened last week.",
+                    "B": "A price estimate for metal pipes.",
+                    "C": "Are you interested in training for that job?"
+                },
+                "answer": "C"
+            },
+            {
+                "id": "29",
+                "question": "Don't we have an extra table in the supply closet?",
+                "options": {
+                    "A": "We're using it for the holiday party.",
+                    "B": "Yes, you can close it.",
+                    "C": "Maria just ordered more paper."
+                },
+                "answer": "A"
+            },
+            {
+                "id": "30",
+                "question": "Where should I go when I visit New York?",
+                "options": {
+                    "A": "Every month.",
+                    "B": "To the botanical gardens= vuon bach thảo.",
+                    "C": "$20."
+                },
+                "answer": "B"
+            },
+            {
+                "id": "31",
+                "question": "These purchases= khoan mua sam should have been entered on your expense report=bao cao chi tiêu.",
+                "options": {
+                    "A": "No, thanks. I don't need anything from the store.",
+                    "B": "The entrance is on 31st street.",
+                    "C": "I thought I had until Friday to do that."
+                },
+                "answer": "C"
+            }
+        ],
+        "De 3": [
+            {
+                "id": "7",
+                "question": "Do you think it'll rain tomorrow? (Bạn có nghĩ ngày mai trời sẽ mưa không?)",
+                "options": {
+                    "A": "Yes, probably. (Có, có lẽ vậy.)",
+                    "B": "Let me show you how. (Để tôi chỉ cho bạn cách làm.)",
+                    "C": "No, he can't. (Không, anh ấy không thể.)"
+                },
+                "answer": "A"
+            },
+            {
+                "id": "8",
+                "question": "When will the new building be finished? (Khi nào thì tòa nhà mới sẽ hoàn thành?)",
+                "options": {
+                    "A": "Across from the pharmacy. (Đối diện hiệu thuốc.)",
+                    "B": "For the new meeting room. (Cho phòng họp mới.)",
+                    "C": "By the end of the month. (Vào cuối tháng này.)"
+                },
+                "answer": "C"
+            },
+            {
+                "id": "9",
+                "question": "How was the fundraising event yesterday? (Sự kiện gây quỹ hôm qua thế nào?)",
+                "options": {
+                    "A": "Yes, at 8 o'clock. (Vâng, lúc 8 giờ.)",
+                    "B": "It was very successful. (Nó đã rất thành công.)",
+                    "C": "The Wilson Hotel. (Khách sạn Wilson.)"
+                },
+                "answer": "B"
+            },
+            {
+                "id": "10",
+                "question": "Will you contact the vendor about changing our delivery date? (Bạn sẽ liên hệ với nhà cung cấp về việc thay đổi ngày giao hàng chứ?)",
+                "options": {
+                    "A": "Of course, I'II take care of it. (Dĩ nhiên rồi, tôi sẽ lo việc đó.)",
+                    "B": "An email receipt. (Một biên lai qua email.)",
+                    "C": "Could I get change for a dollar? (Tôi có thể đổi 1 đô la tiền lẻ không?)"
+                },
+                "answer": "A"
+            },
+            {
+                "id": "11",
+                "question": "Why was the maintenance worker here? (Tại sao nhân viên bảo trì lại ở đây?)I",
+                "options": {
+                    "A": "No, he didn't. (Không, anh ta đã không làm.)",
+                    "B": "From 3 o'clock until 4. (Từ 3 giờ đến 4 giờ.)",
+                    "C": "Because a light needed to be fixed. (Vì một cái đèn cần được sửa.)"
+                },
+                "answer": "C"
+            },
+            {
+                "id": "12",
+                "question": "Did management make a hiring decision yet? (Ban quản lý đã đưa ra quyết định tuyển dụng chưa?)",
+                "options": {
+                    "A": "Put it on the highest shelf. (Đặt nó lên kệ cao nhất.)",
+                    "B": "The personnel department. (Phòng nhân sự.)",
+                    "C": "Yes, they chose Jacob Borgman. (Rồi, họ đã chọn Jacob Borgman.)"
+                },
+                "answer": "C"
+            },
+            {
+                "id": "13",
+                "question": "Would you like me to send you an appointment reminder? (Bạn có muốn tôi gửi cho bạn một lời nhắc hẹn không?)",
+                "options": {
+                    "A": "Yes, I'd appreciate that. (Vâng, tôi rất cảm kích về việc đó.)",
+                    "B": "The apartment downstairs. (Căn hộ tầng dưới.)",
+                    "C": "Do you accept credit cards? (Bạn có chấp nhận thẻ tín dụng không?)"
+                },
+                "answer": "A"
+            },
+            {
+                "id": "14",
+                "question": "Did you remember to book a photographer for today's museum opening? (Bạn có nhớ đặt thợ chụp ảnh cho buổi khai trương bảo tàng hôm nay không?)",
+                "options": {
+                    "A": "Oh, have you read it too? (Ò, bạn cũng đọc nó rồi à?)",
+                    "B": "I'd like to have it framed. (Tôi muốn lồng khung nó.)",
+                    "C": "She should have been here by now. (Cô ấy đáng lẽ phải có mặt ở đây rồi.)"
+                },
+                "answer": "C"
+            },
+            {
+                "id": "15",
+                "question": "Why is my computer so slow today? (Tại sao máy tính của tôi hôm nay lại chậm thế?)",
+                "options": {
+                    "A": "The printer is down that hall. (Máy in ở cuối hành lang kia.)",
+                    "B": "Because some updates are being installed. (Vì một số bản cập nhật đang được cài đặt.)",
+                    "C": "Next year's computer seminar. (Hội thảo máy tính năm tới.)"
+                },
+                "answer": "B"
+            },
+            {
+                "id": "16",
+                "question": "Would you like coffee or tea? (Bạn muốn uống cà phê hay trà?)",
+                "options": {
+                    "A": "Just water, please. (Cho tôi nước lọc thôi.)",
+                    "B": "For a few dollars more. (Thêm vài đô la nữa.)",
+                    "C": "A 15-minute break. (Nghỉ giải lao 15 phút.)"
+                },
+                "answer": "A"
+            },
+            {
+                "id": "17",
+                "question": "We achieved our sales targets this month. (Chúng ta đã đạt được mục tiêu doanh số trong tháng này.)",
+                "options": {
+                    "A": "That's excellent news. (Đó là một tin tuyệt vời.)",
+                    "B": "A few times a day. (Vài lần một ngày.)",
+                    "C": "To the end of April. (Đến cuối tháng Tư.)"
+                },
+                "answer": "A"
+            },
+            {
+                "id": "18",
+                "question": "How often do you travel for your job? (Bạn có thường xuyên đi công tác không?)",
+                "options": {
+                    "A": "It turned out well. (Nó đã diễn ra tốt đẹp.)",
+                    "B": "Yes, I did find one. (Vâng, tôi đã tìm thấy một cái.)",
+                    "C": "About once a month. (Khoảng một lần một tháng.)"
+                },
+                "answer": "C"
+            },
+            {
+                "id": "19",
+                "question": "What repair work needs to be done on this car? (Chiếc xe này cần sửa chữa những gì?)",
+                "options": {
+                    "A": "Yes, that's right. (Vâng, đúng vậy.)",
+                    "B": "I haven't finished checking it. (Tôi vẫn chưa kiểm tra xong.)",
+                    "C": "No thanks, I can walk. (Không cảm ơn, tôi có thể đi bộ.)"
+                },
+                "answer": "B"
+            },
+            {
+                "id": "20",
+                "question": "Who should I call to set up my printer? (Tôi nên gọi cho ai để cài đặt máy in?)",
+                "options": {
+                    "A": "At 12 o'clock. (Lúc 12 giờ.)",
+                    "B": "The phone number is on your desk. (Số điện thoại ở trên bàn của bạn ấy.)",
+                    "C": "The weather forecast. (Dự báo thời tiết.)"
+                },
+                "answer": "B"
+            },
+            {
+                "id": "21",
+                "question": "Have you ordered more whiteboards for the office yet? (Bạn đã đặt thêm bảng trắng cho văn phòng chưa?)",
+                "options": {
+                    "A": "Yes, the board of directors. (Vâng, hội đồng quản trị.)",
+                    "B": "A receipt for the uniforms. (Biên lai cho bộ đồng phục.)",
+                    "C": "Kathy's in charge of supplies. (Kathy phụ trách mảng văn phòng phẩm.)"
+                },
+                "answer": "C"
+            },
+            {
+                "id": "22",
+                "question": "Can you make sure we have a sign-up sheet available? (Bạn có thể đảm bảo rằng chúng ta có sẵn tờ phiếu đăng ký không?)",
+                "options": {
+                    "A": "I just turned up the heat. (Tôi vừa mới tăng nhiệt độ lên.)",
+                    "B": "Sign here, please. (Vui lòng ký vào đây.)",
+                    "C": "Sure, no problem. (Chắc chắn rồi, không vấn đề gì.)"
+                },
+                "answer": "C"
+            },
+            {
+                "id": "23",
+                "question": "They're going to give each of us copies of the press release, aren't they? (Họ sẽ đưa cho mỗi chúng ta một bản sao của thông cáo báo chí, phải không?)",
+                "options": {
+                    "A": "No, I don't drink coffee. (Không, tôi không uống cà phê.)",
+                    "B": "I can unlock that for you later. (Tôi có thể mở khóa cái đó cho bạn sau.)",
+                    "C": "I'd better remind them about that. (Tốt hơn là tôi nên nhắc họ về việc đó.)"
+                },
+                "answer": "C"
+            },
+            {
+                "id": "24",
+                "question": "What do most people do for a living= làm gi để kiếm sống around here? (Hầu hết mọi người ở đây làm nghề gì để sinh sống?)",
+                "options": {
+                    "A": "About 40 kilometers away. (Cách đây khoảng 40 km.)",
+                    "B": "They work at the car manufacturing plant. (Họ làm việc tại nhà máy sản xuất ô tô.)",
+                    "C": "Yes, the living room furniture's new. (Vâng, nội thất phòng khách mới.)"
+                },
+                "answer": "B"
+            },
+            {
+                "id": "25",
+                "question": "Where are the red roses that came in this morning? (Những bông hồng đỏ nhập về sáng nay đâu rồi?)",
+                "options": {
+                    "A": "About 3 liters of water. (Khoảng 3 lít nước.)",
+                    "B": "No, I didn't check out the sale. (Không, tôi đã không kiểm tra đợt giảm giá.)",
+                    "C": "I needed some for a large bouquet= bó hoa. (Tôi cần một ít để cắm một bó hoa lớn.) (Câu này ngụ ý người nói đã lấy chúng đi)."
+                },
+                "answer": "C"
+            },
+            {
+                "id": "26",
+                "question": "This film has been nominated=đề cử for several awards. (Bộ phim này đã được đề cử cho vài giải thường.)",
+                "options": {
+                    "A": "Why don't we go see it? (Tại sao chúng ta không đi xem nó nhi?)",
+                    "B": "After the announcement. (Sau khi có thông báo.)",
+                    "C": "He made a great speech. (Anh ấy đã có một bài phát biểu tuyệt vời.)"
+                },
+                "answer": "A"
+            },
+            {
+                "id": "27",
+                "question": "Who's interested in starting a carpool= di chung xe program? (Ai quan tâm đến việc bắt đầu chương trình đi chung xe?)",
+                "options": {
+                    "A": "Thanks, but I can't swim. (Cảm ơn, nhưng tôi không biết bơi - nhầm từ \"pool\" là hồ bơi.)",
+                    "B": "Clara's already organizing one. (Clara đang tổ chức một cái rồi.)",
+                    "C": "It's a very interesting article. (Đó là một bài báo rất thú vị.)"
+                },
+                "answer": "B"
+            },
+            {
+                "id": "28",
+                "question": "We still need to sign our contract with the advertising agency, don't we? (Chúng ta vẫn cần ký hợp đồng với công ty quảng cáo, phải không?)",
+                "options": {
+                    "A": "My travel agent found me a great hotel. (Đại lý du lịch của tôi đã tìm cho tôi một khách sạn tuyệt vời.)",
+                    "B": "Yes, by next Friday. (Đúng vậy, trước thứ Sáu tới.)",
+                    "C": "I saw that commercial as well. (Tôi cũng đã xem quảng cáo đó.)"
+                },
+                "answer": "B"
+            },
+            {
+                "id": "29",
+                "question": "Should I bring some photography samples to the job interview? (Tôi có nên mang theo một số ảnh mẫu đến buổi phỏng vấn xin việc không?)",
+                "options": {
+                    "A": "Please sign your name here. (Vui lòng ký tên vào đây.)",
+                    "B": "I've seen them online. (Tôi đã xem chúng trên mạng rồi.)",
+                    "C": "What a nice view. (Thật là một khung cảnh đẹp.)"
+                },
+                "answer": "B"
+            },
+            {
+                "id": "30",
+                "question": "Is there a room in the store where I can try this shirt on? (Trong cửa hàng có phòng nào để tôi thử chiếc áo này không?)",
+                "options": {
+                    "A": "You can follow me. (Bạn có thể đi theo tôi.)",
+                    "B": "We'll try harder next time. (Chúng tôi sẽ cố gắng hơn vào lần tới.)",
+                    "C": "She's not here right now. (Cô ấy không có ở đây lúc này.)"
+                },
+                "answer": "A"
+            },
+            {
+                "id": "31",
+                "question": "What type of job are you looking for? (Bạn đang tìm kiếm loại công việc nào?)",
+                "options": {
+                    "A": "No, at 10 a.m. (Không, lúc 10 giờ sáng.)",
+                    "B": "I really like working with computers. (Tôi rất thích làm việc với máy tính.)"
+                },
+                "answer": "B"
+            }
+        ]
+    },
+
     "part3": {
         "De 1": [
             {
