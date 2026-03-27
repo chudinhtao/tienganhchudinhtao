@@ -533,3 +533,136 @@ body {
     margin-left: 32px;
     margin-top: 8px;
 }
+
+/* Sidebar Toggle & Overlay Classes */
+.menu-toggle {
+    display: none;
+}
+
+.sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 95;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.sidebar-overlay.open {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .app-container {
+        flex-direction: column;
+    }
+    
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: -300px;
+        width: 280px;
+        height: 100vh;
+        max-height: 100vh;
+        background: var(--sidebar-bg);
+        z-index: 100;
+        transition: left 0.3s ease;
+        box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        padding: 24px;
+        gap: 24px;
+        border-right: none;
+    }
+
+    .sidebar.open {
+        left: 0;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 4px;
+    }
+
+    .nav-list li {
+        padding: 10px 14px;
+        font-size: 14px;
+    }
+
+    .top-bar {
+        padding: 12px 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .test-info {
+        width: 100%;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 12px;
+    }
+    
+    .menu-toggle {
+        display: block;
+        padding: 4px 10px;
+        font-size: 16px;
+        margin-right: 0;
+    }
+
+    .test-info h1 {
+        font-size: 16px;
+    }
+
+    .actions {
+        width: 100%;
+        justify-content: space-between;
+        gap: 8px;
+    }
+
+    .btn {
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+
+    .test-area {
+        padding: 16px;
+        padding-bottom: 80px;
+    }
+
+    .question-card, .passage-card {
+        padding: 16px;
+        margin-bottom: 16px;
+    }
+
+    .q-header {
+        margin-bottom: 12px;
+    }
+
+    .options {
+        margin-left: 0;
+        gap: 8px;
+    }
+
+    .option-label {
+        padding: 10px 12px;
+    }
+
+    .explanation, .no-answer-warning {
+        margin-left: 0;
+    }
+    
+    .logo-area h2 {
+        font-size: 20px;
+    }
+    
+    .passage-text {
+        font-size: 14px;
+        padding: 16px;
+    }
+}

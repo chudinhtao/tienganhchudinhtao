@@ -28,7 +28,10 @@ document.addEventListener('DOMContentLoaded', () => {
         modeBtnAll: document.getElementById('mode-btn-all'),
         modeBtnOne: document.getElementById('mode-btn-one'),
         modeSwitcher: document.getElementById('mode-switcher'),
-        toggleRandom: document.getElementById('toggle-random')
+        toggleRandom: document.getElementById('toggle-random'),
+        menuToggle: document.getElementById('menu-toggle'),
+        sidebar: document.querySelector('.sidebar'),
+        sidebarOverlay: document.getElementById('sidebar-overlay')
     };
 
     // Configuration
@@ -41,6 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 'part5', name: 'Part 5: Incomplete Sentences', available: true },
         { id: 'part6', name: 'Part 6: Text Completion', available: true },
         { id: 'part7', name: 'Part 7: Reading Comprehension', available: true },
+        { id: 'full', name: '🏆 Full Test (Thi thử toàn diện)', available: true, isSpecial: true },
         { id: 'mixed', name: 'Full Test (Random Mixed)', available: true, isSpecial: true }
     ];
 
@@ -75,7 +79,8 @@ document.addEventListener('DOMContentLoaded', () => {
             
             // Check if there is data for this part
             const isMixed = part.id === 'mixed';
-            const hasData = isMixed || (toeicData[part.id] && Object.keys(toeicData[part.id]).length > 0);
+            const isFull = part.id === 'full';
+            const hasData = isMixed || isFull || (toeicData[part.id] && Object.keys(toeicData[part.id]).length > 0);
             
             if (!hasData && !part.available) {
                 li.classList.add('disabled');
@@ -139,6 +144,28 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
+        if (state.selectedPart === 'full') {
+            const testNames = new Set();
+            for (let i = 1; i <= 7; i++) {
+                const p = toeicData[`part${i}`];
+                if (p) {
+                    Object.keys(p).forEach(k => testNames.add(k));
+                }
+            }
+            if (testNames.size === 0) {
+                elements.testList.innerHTML = '<li class="disabled">No full tests available</li>';
+                return;
+            }
+            Array.from(testNames).sort().forEach(testName => {
+                const li = document.createElement('li');
+                li.textContent = "Full Test - " + testName;
+                li.dataset.id = testName;
+                li.addEventListener('click', () => selectTest(testName));
+                elements.testList.appendChild(li);
+            });
+            return;
+        }
+
         const partData = toeicData[state.selectedPart];
         
         if (!partData || Object.keys(partData).length === 0) {
@@ -182,6 +209,15 @@ document.addEventListener('DOMContentLoaded', () => {
             elements.btnSubmit.classList.remove('hidden');
             elements.btnReset.classList.remove('hidden');
             elements.toggleRandom.parentElement.classList.remove('hidden');
+        } else if (state.selectedPart === 'full') {
+            elements.currentTitle.textContent = `Full Test - ${testName}`;
+            if (state.isRandom) {
+                elements.currentTitle.textContent += " - Shuffled Sections";
+            }
+            elements.progressBadge.classList.remove('hidden');
+            elements.btnSubmit.classList.remove('hidden');
+            elements.btnReset.classList.remove('hidden');
+            elements.toggleRandom.parentElement.classList.remove('hidden');
         } else {
             const partName = partsArray.find(p => p.id === state.selectedPart).name;
             elements.currentTitle.textContent = `${partName} - ${testName}`;
@@ -197,6 +233,12 @@ document.addEventListener('DOMContentLoaded', () => {
             elements.btnNext.classList.add('hidden');
         }
         renderTestContent();
+
+        // On mobile, auto-close sidebar after selecting a test
+        if (window.innerWidth <= 768) {
+            elements.sidebar.classList.remove('open');
+            elements.sidebarOverlay.classList.remove('open');
+        }
     }
 
     // ─── ONE-BY-ONE MODE ─────────────────────────────────────────────────────
@@ -239,6 +281,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     });
                 }
             });
+        } else if (state.selectedPart === 'full') {
+            for (let i = 1; i <= 7; i++) {
+                const partId = `part${i}`;
+                if (toeicData[partId]) {
+                    addFromPartData(toeicData[partId], partId, state.selectedTest);
+                }
+            }
         } else {
             addFromPartData(toeicData[state.selectedPart], state.selectedPart, state.selectedTest);
         }
@@ -375,7 +424,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function generateMixedTest() {
         let items = [];
         
-        ['part3', 'part4', 'part5', 'part6', 'part7'].forEach(pId => {
+        ['part1', 'part2', 'part3', 'part4', 'part5', 'part6', 'part7'].forEach(pId => {
             const partData = toeicData[pId];
             if (!partData) return;
             const tests = Object.keys(partData);
@@ -445,6 +494,24 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
                 // Order normally by Part 5 -> Part 6 -> Part 7
                 itemsToRender.sort((a,b) => a.originalPart.localeCompare(b.originalPart));
+            }
+        } else if (state.selectedPart === 'full') {
+            for (let i = 1; i <= 7; i++) {
+                const partId = `part${i}`;
+                const data = toeicData[partId];
+                if (data && data[state.selectedTest]) {
+                    const tData = data[state.selectedTest];
+                    if (['part1', 'part2', 'part5'].includes(partId)) {
+                        tData.forEach(q => itemsToRender.push({ type: 'single', data: q }));
+                    } else if (partId === 'part3' || partId === 'part4') {
+                        tData.forEach(p => itemsToRender.push({ type: 'passage', data: p, isListening: true }));
+                    } else {
+                        tData.forEach(p => itemsToRender.push({ type: 'passage', data: p }));
+                    }
+                }
+            }
+            if (state.isRandom) {
+                shuffle(itemsToRender);
             }
         } else {
             const data = toeicData[state.selectedPart][state.selectedTest];
@@ -690,6 +757,20 @@ document.addEventListener('DOMContentLoaded', () => {
         elements.btnReset.addEventListener('click', resetTest);
         elements.btnNext.addEventListener('click', oboNextQuestion);
 
+        // Sidebar Toggle for Mobile
+        if(elements.menuToggle) {
+            elements.menuToggle.addEventListener('click', () => {
+                elements.sidebar.classList.toggle('open');
+                elements.sidebarOverlay.classList.toggle('open');
+            });
+        }
+        if (elements.sidebarOverlay) {
+            elements.sidebarOverlay.addEventListener('click', () => {
+                elements.sidebar.classList.remove('open');
+                elements.sidebarOverlay.classList.remove('open');
+            });
+        }
+
         // Mode switcher
         elements.modeBtnAll.addEventListener('click', () => {
             if (state.mode === 'all') return;
@@ -720,6 +801,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Determine title based on modes
                 if (state.selectedPart === 'mixed') {
                     elements.currentTitle.textContent = "Mixed Practice Test (All Parts)" + (state.isRandom ? " - Shuffled Sections" : "");
+                } else if (state.selectedPart === 'full') {
+                    elements.currentTitle.textContent = "Full Test - " + state.selectedTest + (state.isRandom ? " - Shuffled Sections" : "");
                 }
                 
                 // Keep user answers but re-render structure
