@@ -70,7 +70,7 @@ const toeicData = {
                     "C": "A bus is being driven down a road.",
                     "D": "A garage door has been opened."
                 },
-                "answer": "",
+                "answer": "C",
                 "image": "assets/part1/image6.png"
             }
         ],
@@ -4290,7 +4290,7 @@ const toeicData = {
                 "question": "The release of the earnings report will ______ until the latest company figures are ready.",
                 "options": {
                     "A": "delay",
-                    "B": "be delayed",
+                    "B": "have delayed",
                     "C": "be delayed",
                     "D": "be delaying"
                 },
