@@ -980,7 +980,6 @@ const toeicData = {
             }
         ]
     },
-
     "part3": {
         "De 1": [
             {
@@ -3161,7 +3160,7 @@ const toeicData = {
                             "C": "It is easy to assemble",
                             "D": "It is available in many colors"
                         },
-                        "answer": "A"
+                        "answer": "B"
                     },
                     {
                         "id": "91",
@@ -3172,7 +3171,7 @@ const toeicData = {
                             "C": "By referring a product to a friend",
                             "D": "By using a mobile phone application"
                         },
-                        "answer": "B"
+                        "answer": "A"
                     }
                 ],
                 "passage": "[Listen to the audio to answer the following questions.]"
