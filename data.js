@@ -6290,7 +6290,7 @@ const toeicData = {
                             "C": "[3]",
                             "D": "[4]"
                         },
-                        "answer": "C"
+                        "answer": "B"
                     }
                 ]
             },
@@ -6329,7 +6329,7 @@ const toeicData = {
                             "C": "Conducting market research",
                             "D": "Assigning tasks to team members"
                         },
-                        "answer": "C"
+                        "answer": "A"
                     },
                     {
                         "id": "175",
@@ -6340,7 +6340,7 @@ const toeicData = {
                             "C": "[3]",
                             "D": "[4]"
                         },
-                        "answer": "C"
+                        "answer": "D"
                     }
                 ]
             },
@@ -6472,58 +6472,58 @@ const toeicData = {
                 "questions": [
                     {
                         "id": "186",
-                        "question": "According to the e-mail, what is expected?",
+                        "question": "What venue seats only twenty people?",
                         "options": {
-                            "A": "High attendance at the lectures",
-                            "B": "Changes to the dates of events",
-                            "C": "Fees for some upcoming events",
-                            "D": "A visit from a famous author"
+                            "A": "The Helms Room",
+                            "B": "The Stokes Room",
+                            "C": "The Avery Room",
+                            "D": "The Fredricks Room"
                         },
-                        "answer": "A"
+                        "answer": "C"
                     },
                     {
                         "id": "187",
-                        "question": "What does the e-mail imply about the lectures?",
+                        "question": "Who is highlighted as a new speaker at Ada County Library?",
                         "options": {
-                            "A": "They are usually held in the Avery Room.",
-                            "B": "They are open to the general public.",
-                            "C": "They require advanced registration.",
-                            "D": "They are offered every spring."
+                            "A": "Ms. Briggs",
+                            "B": "Ms. Elgin",
+                            "C": "Ms. Weiss",
+                            "D": "Ms. Reynolds"
                         },
                         "answer": "B"
                     },
                     {
                         "id": "188",
-                        "question": "Who is visiting the library for the first time?",
+                        "question": "What most likely is Ms. Carlton's job?",
                         "options": {
-                            "A": "Yvonne Briggs",
-                            "B": "Carole Elgin",
-                            "C": "Marc D'Angelo",
-                            "D": "Jax Morrison"
+                            "A": "University lecturer",
+                            "B": "Computer programmer",
+                            "C": "Event coordinator",
+                            "D": "Travel agent"
+                        },
+                        "answer": "C"
+                    },
+                    {
+                        "id": "189",
+                        "question": "What event will need to be rescheduled?",
+                        "options": {
+                            "A": "Idaho Literature",
+                            "B": "History of the Dictionary",
+                            "C": "Philosophical Nonfiction",
+                            "D": "Programming as a Skill"
                         },
                         "answer": "B"
                     },
                     {
-                        "id": "189",
-                        "question": "According to the schedule, what will happen on April 24?",
-                        "options": {
-                            "A": "A job fair will take place.",
-                            "B": "A class on using computers will be held.",
-                            "C": "A lecture will be given in the Avery Room.",
-                            "D": "A speaker will discuss writing history."
-                        },
-                        "answer": "C"
-                    },
-                    {
                         "id": "190",
-                        "question": "What is true about the Helms Room?",
+                        "question": "What is indicated about Mr. Morrison?",
                         "options": {
-                            "A": "It is the largest venue at the library.",
-                            "B": "It is reserved for staff meetings.",
-                            "C": "It is the location of the first spring lecture.",
-                            "D": "It has a capacity of exactly 20 people."
+                            "A": "He has not yet begun to prepare for his lecture.",
+                            "B": "He will visit the library on May 8.",
+                            "C": "He is not required to travel for his job.",
+                            "D": "He plans to utilize technology in his presentation."
                         },
-                        "answer": "C"
+                        "answer": "D"
                     }
                 ]
             },
@@ -6787,7 +6787,7 @@ const toeicData = {
                             "C": "Send some photographs",
                             "D": "Write some project notes"
                         },
-                        "answer": "C"
+                        "answer": "A"
                     },
                     {
                         "id": "157",
@@ -7036,56 +7036,56 @@ const toeicData = {
                 "questions": [
                     {
                         "id": "176",
-                        "question": "What is true about the Cricket Theatre?",
+                        "question": "What is indicated about the Watts-Spicer Group?",
                         "options": {
-                            "A": "It is the first new theater in Liverpool in 20 years.",
-                            "B": "It is located in London.",
-                            "C": "It took three years to build.",
-                            "D": "It is owned by Clara Kennedy."
+                            "A": "It runs multiple theaters.",
+                            "B": "It owned the Fletcher shoe factory.",
+                            "C": "It is an Australian company.",
+                            "D": "It operates the oldest theater in the city."
                         },
                         "answer": "A"
                     },
                     {
                         "id": "177",
-                        "question": "According to Mr. Watts, why was the project delayed?",
+                        "question": "In the first article, the word \"stage\" in paragraph 2, line 4, is closest in meaning to?",
                         "options": {
-                            "A": "Waiting for seats to arrive",
-                            "B": "A lack of funding",
-                            "C": "Issues with the building permit",
-                            "D": "Structural problems"
+                            "A": "phase",
+                            "B": "platform",
+                            "C": "scene",
+                            "D": "presentation"
                         },
                         "answer": "A"
                     },
                     {
                         "id": "178",
-                        "question": "What type of performances will the Cricket Theatre host?",
+                        "question": "What is implied about the Cricket Theatre?",
                         "options": {
-                            "A": "Only musicals",
-                            "B": "Only traditional plays",
-                            "C": "A variety of productions",
-                            "D": "Comedy shows only"
+                            "A": "Its prices are very high.",
+                            "B": "Its shows will mainly be musical comedies.",
+                            "C": "Its expected opening was delayed.",
+                            "D": "Its next production begins in January."
                         },
                         "answer": "C"
                     },
                     {
                         "id": "179",
-                        "question": "What is the musical Backup about?",
+                        "question": "According to the second article, what is indicated about Backup?",
                         "options": {
-                            "A": "A factory worker",
-                            "B": "A successful band",
-                            "C": "A chairperson",
-                            "D": "A backup singer"
+                            "A": "It had low ticket sales.",
+                            "B": "It disappointed the audience.",
+                            "C": "Its story is fictional.",
+                            "D": "Its story takes place over several decades."
                         },
                         "answer": "D"
                     },
                     {
                         "id": "180",
-                        "question": "How did the audience feel about Backup?",
+                        "question": "Who is Ms. McClure?",
                         "options": {
-                            "A": "Inspired",
-                            "B": "Disappointed",
-                            "C": "Confused",
-                            "D": "Bored"
+                            "A": "A performer",
+                            "B": "A manager",
+                            "C": "A costume designer",
+                            "D": "A set designer"
                         },
                         "answer": "A"
                     }
